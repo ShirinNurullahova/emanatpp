@@ -7,31 +7,31 @@ import SearchIcon from '../../../assets/img/search.svg'
 import Modal from '../Modal/Modal'
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  
+
   const toggle = () => {
     if (menuOpen) {
       setMenuOpen(false)
 
     } else {
       setMenuOpen(true)
-      document.getElementsByTagName('body')[0].style.overflow='hidden'
+      document.getElementsByTagName('body')[0].style.overflow = 'hidden'
 
     }
   }
-  const dropEnter=()=>{
-    document.getElementsByClassName('header-container-navbar-li-div')[0].style.transition='0.2s'
-    document.getElementsByClassName('header-container-navbar-li-div')[0].style.visibility='visible'
+  const dropEnter = () => {
+    document.getElementsByClassName('header-container-navbar-li-div')[0].style.transition = '0.2s'
+    document.getElementsByClassName('header-container-navbar-li-div')[0].style.visibility = 'visible'
 
-   document.getElementsByClassName('header-container-navbar-li-dropdown')[0].style.transform='rotateX(180deg)' 
+    document.getElementsByClassName('header-container-navbar-li-dropdown')[0].style.transform = 'rotateX(180deg)'
   }
 
-  const dropLeave=()=>{
-    document.getElementsByClassName('header-container-navbar-li-div')[0].style.transition='0.2s'
-    document.getElementsByClassName('header-container-navbar-li-div')[0].style.visibility='hidden'
+  const dropLeave = () => {
+    document.getElementsByClassName('header-container-navbar-li-div')[0].style.transition = '0.2s'
+    document.getElementsByClassName('header-container-navbar-li-div')[0].style.visibility = 'hidden'
 
-    document.getElementsByClassName('header-container-navbar-li-dropdown')[0].style.transform='rotateX(360deg)' 
+    document.getElementsByClassName('header-container-navbar-li-dropdown')[0].style.transform = 'rotateX(360deg)'
   }
-  
+
   return (
     <header>
       <div className="header-container">
@@ -58,12 +58,13 @@ const Header = () => {
             {/* <li><Link to={'/coorperative'}>Terminal xəritəsi</Link></li> */}
 
             <li className='header-container-navbar-li' onMouseEnter={dropEnter} onMouseLeave={dropLeave}>
-              <Link to={'/service'}>Əməkdaşlıq <img  className='header-container-navbar-li-dropdown' src={dropdown}/></Link>
+              <Link to={'/service'}>Əməkdaşlıq <img className='header-container-navbar-li-dropdown' src={dropdown} /></Link>
               <div className='header-container-navbar-li-div'>
-                  <p>Marketing</p>
-                  <p>Biznes</p>
-                  <p>Terminal quraşdırılması</p>
-                  <Link to={'/about'}><p>Haqqımızda</p></Link>
+                <Link to='/marketingform'><p>Marketing</p></Link>
+                <Link to='/biznesform'>  <p>Biznes</p></Link>
+                <Link to='/terminallocation'> <p>Terminal quraşdırılması</p>
+                </Link>
+                <Link to={'/about'}><p>Haqqımızda</p></Link>
               </div>
 
             </li>
