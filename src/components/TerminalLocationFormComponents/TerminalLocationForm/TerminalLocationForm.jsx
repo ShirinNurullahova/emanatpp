@@ -64,7 +64,8 @@ const TerminalLocationForm = () => {
             </div>
             <div className="terminal_location_form_right_form_element">
               <label>Qeyd<img className='star' src={star} /></label>
-              <input type="ad" placeholder='' name="" id="" />
+              
+              <textarea name="" id="" cols="30" rows="10"></textarea>
             </div>
           </form>
 

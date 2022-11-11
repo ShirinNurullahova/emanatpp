@@ -63,7 +63,7 @@ const MarketingForm = () => {
             </div>
             <div className="marketing_form_right_form_element">
               <label>Müraciət mətni<img className='star' src={star} /></label>
-              <input type="ad" placeholder='' name="" id="" />
+              <textarea name="" id="" cols="30" rows="10"></textarea>
             </div>
           </form>
 
