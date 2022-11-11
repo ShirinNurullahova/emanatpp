@@ -1,0 +1,153 @@
+.marketing_form {
+    display: flex;
+    
+    &_right {
+        padding: 100px;
+
+        &_h1 {
+            margin-bottom: 60px;
+
+            h1 {
+                font-family: 'Averta';
+                font-size: 56px;
+                font-weight: 800;
+                line-height: 72px;
+                letter-spacing: 0em;
+                text-align: left;
+
+                span {
+                    color: #F99400
+                }
+            }
+
+
+
+        }
+
+        &_form {
+            &_element {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 20px;
+                input[type="file"] {
+                    display: none;
+                }
+                .load {
+                    margin-bottom: 9px;
+                    font-family: 'Averta Demo';
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 22px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                     display: flex;
+                     align-items: flex-start;
+                }
+
+                .lb {
+                    border: 1px solid #D9D9D9;
+                    width: 570px;
+                    height: 44px;
+                    padding: 10px;
+                    font-family: 'AvertaDemo';
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 22px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #9F9F9F;
+                    display: flex;
+                    justify-content: space-between;
+                    color: transparent;
+                    .vector {
+                        text-align: right;
+                    }
+
+                }
+                .star{
+                    margin-left: 4px;
+                }
+                label {
+                    font-family: 'Averta Demo';
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 22px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    margin-bottom: 9px;
+                    display: flex;
+                    align-items: flex-start;
+                }
+
+                input {
+                    height: 44px;
+                    width: 570px;
+                    border: 1px solid #D9D9D9;
+                    padding-left: 15px;
+
+                }
+            }
+
+            &_element:last-child input {
+                height: 142px;
+            }
+        }
+
+        &_bottom {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 64px;
+
+            &_left {
+                display: flex;
+                align-items: center;
+
+                p {
+                    font-family: 'Averta Demo';
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    margin-left: 5px;
+
+                }
+            }
+
+            &_right {
+                button {
+                    border: none;
+                    outline: none;
+                    height: 40px;
+                    width: 195px;
+                    color: black;
+                    background-color: #F99400;
+                    border-radius: 26px;
+                    font-family: 'AvertaDemo';
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+
+
+                }
+            }
+        }
+    }
+
+    &_left {
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+        background-color: #0A66B5;
+
+        &_logo {
+            padding: 5% 15% 0 15%;
+        }
+
+        &_img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

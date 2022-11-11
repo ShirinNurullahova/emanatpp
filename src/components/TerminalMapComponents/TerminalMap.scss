@@ -1,0 +1,138 @@
+@import '../../assets/styles/mixin.scss';
+@import '../../assets/styles/inheritance.scss';
+
+.terminal_map_section {
+    padding: 90px 9.2% 190px 9.2%;
+
+    &_heading{
+        margin-bottom: 65px;
+
+        h1 {
+            margin-bottom: 15px;
+            @include textStyles('Averta', 60px, 800, #070814, 72px);
+    
+            span {
+                color: #F99400;
+            }
+        }
+    
+        p {
+            @include textStyles('Averta Demo', 20px, 400, #070814, 24px);
+            margin-left: 5px;
+        }
+    }
+
+    .terminals_map_container {
+        display: flex;
+        justify-content: space-between;
+        height: 70vh;
+
+        .places_container {
+            width: 370px;
+
+            .select_place_options {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .address_button,
+                .street_button {
+                    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.02);
+                    border-radius: 5px;
+                    padding: 8px 15px;
+                    background: none;
+                    border: none;
+                    outline: none;
+                    width: 47%;
+
+                    form {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+
+                        input {
+                            @include textStyles('Averta Demo', 14px, 400, #070814, 17px);
+                            border: none;
+                            outline: none;
+                            width: 90%;
+                        }
+                    }
+
+                }
+            }
+
+            .places_list {
+                height: calc(100% - 45px);
+                overflow-x: hidden;
+                box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);
+                border-radius: 5px;
+                padding-top: 25px;
+                margin-top: 12px;
+
+                &::-webkit-scrollbar {
+                    width: 6px;
+                }
+
+                &::-webkit-scrollbar-track {
+                    background-color: transparent;
+                }
+
+                &::-webkit-scrollbar-thumb {
+                    background: #0A66B5;
+                    border-radius: 3px;
+                    height: 30px;
+                }
+
+                .place_item {
+                    margin-bottom: 30px;
+                    padding: 5px 50px 5px 15px;
+                    transition: all 0.1s linear;
+                    cursor: pointer;
+                    border-bottom: 1px solid #F0F6FB;
+
+                    h3 {
+                        margin-bottom: 15px;
+                        transition: all 0.1s linear;
+                        @include textStyles('Averta', 16px, 800, #070814, 19px);
+                    }
+
+                    p {
+                        transition: all 0.1s linear;
+                        opacity: 0.8;
+                        @include textStyles('Averta Demo', 16px, 400, #070814, 19px);
+                    }
+
+                    &:hover {
+                        background: #F0F6FB;
+
+                        h3 {
+                            color: #08589d;
+                        }
+
+                        p {
+                            color: #0A66B5;
+                        }
+                    }
+                }
+            }
+        }
+
+        .map_container {
+            width: calc(100% - 410px);
+            height: 100%;
+            overflow-x: hidden;
+            .gm-fullscreen-control {
+                display: none;
+            }
+            .marker_elem.selected_marker {
+                svg {
+                    // border: 2px solid red;
+                    // border-radius: 50%;
+                    fill: red;
+                    width: 50px !important;
+                    height: 52px !important;
+                }
+            }
+        }
+    }
+}
