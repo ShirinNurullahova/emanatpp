@@ -49,7 +49,7 @@ const HomeNews = () => {
                                 </div>
 
                                 <div className="home-news-section-container-card-bottom-button">
-                                    <a href="/news/:id">Ətraflı</a>
+                                    <a href="/news/2">Ətraflı</a>
                                     <span>&#8599;</span>
                                 </div>
                             </div>
