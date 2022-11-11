@@ -22,7 +22,7 @@ const BiznesForm = () => {
                 </div>
                 <div className='biznes_form_right'>
                     <div className='biznes_form_right_h1'>
-                        <h1> <span>Biznes</span>əməkdaşlığı</h1>
+                        <h1> <span>Biznes </span>əməkdaşlığı</h1>
                     </div>
                     <div className='biznes_form_right_form'>
                         <form>
