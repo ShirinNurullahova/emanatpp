@@ -169,7 +169,7 @@
 .career-blue {
     background-color: #0A66B5;
     padding: 5% 9.375% 0 9.375%;
-    margin-bottom: 20%;
+    // margin-bottom: 20%;
 
     &-h1 {
         font-family: 'Averta';
@@ -319,8 +319,12 @@
             outline: none;
             border-radius: 26px;
             transition: 0.2s;
+            a{
+                text-decoration: none;
+                color: black;
+            }
         }
-        button:hover{
+        button:hover a{
             color:white;
             transition: 0.2s;
         }

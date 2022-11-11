@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../../CareerComponents/Career.scss'
 const CareerImprove = () => {
     return (
@@ -11,7 +12,7 @@ const CareerImprove = () => {
                 <p>Karyera sərgilərinin bir parçasıyıq</p>
             </div>
             <div className='career-improve_btn'>
-                <button>Ətraflı</button>
+                <button><Link to='/uni'>Ətraflı</Link></button>
             </div>
         </div>
     )

@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 const HomeSocial = () => {
     return (
@@ -11,7 +13,7 @@ const HomeSocial = () => {
                     <p>Hər zaman ölkəmizin və gəncliyimizin davamlı inkişafına qatqıda olmağa çalışırıq</p>
                 </div>
                 <div className='home_social_main_btn'>
-                    <button>Ətraflı</button>
+                    <button><Link to='/coorperative'>Ətraflı</Link></button>
                 </div>
             </div>
 
