@@ -6,6 +6,7 @@ import Footer from './components/LayoutComponents/Footer/Footer';
 import Loader from './components/LayoutComponents/Loader/Loader';
 import TerminalLocationFormPage from './pages/TerminalLocationFormPage';
 import BiznesFormPage from './pages/BiznesFormPage';
+import PaymentPage from './pages/PaymentPage';
 
 const ErrorPage = React.lazy(() => import('./pages/ErrorPage'));
 const AboutPage = React.lazy(() => import('./pages/AboutPage')); // Lazy-loaded
@@ -53,6 +54,7 @@ function App() {
           <Route path='/marketingform' element={<MarketingPage />} />
           <Route path='/terminallocation' element={<TerminalLocationFormPage />} />
           <Route path='/biznesform' element={<BiznesFormPage />} />
+          <Route path='/payment' element={<PaymentPage />} />
 
         </Routes>
 

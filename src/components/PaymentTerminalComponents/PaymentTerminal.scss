@@ -1,0 +1,168 @@
+.payment_terminal {
+    padding: 100px 9.375% 200px 9.375%;
+
+    &_div {
+        &_h1 {
+            h1 {
+                font-family: 'Averta';
+                font-size: 60px;
+                font-weight: 800;
+                line-height: 72px;
+                letter-spacing: 0em;
+                text-align: left;
+
+                span {
+                    color: #F99400
+                }
+            }
+        }
+
+        &_form {
+            padding-left: 100px;
+            padding-top: 87px;
+
+            &_dif {
+                h2 {
+                    color: #F99400;
+                    font-family: 'Averta Demo';
+                    font-size: 30px;
+                    font-weight: 400;
+                    line-height: 42px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    width: 702px;
+                }
+
+            }
+
+            .star {
+                margin-left: 4px;
+            }
+
+            &_element {
+                margin-top: 50px;
+
+                textarea {
+                    height: 82px;
+                    width: 570px;
+                    border: 1px solid #D9D9D9;
+                }
+
+                &_radio {
+                    margin-bottom: 20px;
+
+                    label {
+                        font-family: 'Averta Demo';
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 22px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                        margin-left: 10px;
+                    }
+
+
+                }
+
+                &_div {
+                    display: flex;
+                    flex-direction: column;
+                    margin-bottom: 20px;
+                    position: relative;
+                    &_choose {
+                       
+                        height: 44px;
+                        width: 570px;
+                        border: 1px solid #D9D9D9;
+                        padding-left: 15px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        img{
+                            margin-right: 16px;
+                        }
+                        p {
+                            font-family: 'Averta Demo';
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 22px;
+                            letter-spacing: 0em;
+                            text-align: left;
+                            color:  #9F9F9F;
+                           
+                        }
+                    }
+                   
+                    label {
+                        font-family: 'Averta Demo';
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 22px;
+                        color: #070814;
+                        letter-spacing: 0em;
+                        text-align: left;
+                        margin-bottom: 9px;
+                        display: flex;
+                        align-items: flex-start;
+                    }
+
+                    input {
+                        height: 44px;
+                        width: 570px;
+                        border: 1px solid #D9D9D9;
+                        padding-left: 15px;
+                    }
+                }
+            }
+
+            &_h2 {
+                h2 {
+                    font-family: 'Averta Demo';
+                    font-size: 30px;
+                    font-weight: 400;
+                    line-height: 22px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    display: flex;
+                    align-items: flex-start;
+
+                }
+
+
+            }
+        }
+
+        &_btn {
+            padding-left: 100px;
+            padding-top: 53px;
+
+            button {
+                height: 40px;
+                border: none;
+                outline: none;
+                width: 195px;
+                background-color: #F99400;
+                color: #070814;
+                font-family: 'Averta Demo';
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0em;
+                border-radius: 26px;
+                transition: 0.2s;
+            }
+
+            button:hover {
+                color: white;
+                transition: 0.2s;
+            }
+        }
+
+    }
+
+    &_div div:nth-child(8) {
+        textarea {
+            height: 142px;
+        }
+    }
+}

@@ -1,4 +1,6 @@
 import React, { Fragment, useEffect } from 'react'
+import CareerVacancies from '../components/CareerComponents/CareerVacancies/CareerVacancies';
+import CareerVideo from '../components/CareerComponents/CareerVideo/CareerVideo';
 const CareerBlue = React.lazy(() => import('../components/CareerComponents/CareerBlue/CareerBlue')); // Lazy-loaded
 const CareerMain = React.lazy(() => import('../components/CareerComponents/CareerMain/CareerMain')); // Lazy-loaded
 const CareerWhite = React.lazy(() => import('../components/CareerComponents/CareerWhite/CareerWhite')); // Lazy-loaded
@@ -18,6 +20,8 @@ const CareerPage = () => {
     <Fragment>
       <CareerMain />
       <CareerDark />
+      <CareerVideo/>
+      <CareerVacancies/>
       <CareerWhite />
       <CareerBlue />
       <CareerImprove/>

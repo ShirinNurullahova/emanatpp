@@ -6,7 +6,7 @@
     justify-content: space-between;
     padding: 0 0% 0 9.375%;
     overflow: hidden;
-   
+
     &-one {
         max-width: 1440px;
         margin: 0 auto;
@@ -55,10 +55,11 @@
                 transition: 0.2 ease;
             }
         }
-        &-btn:hover button{
+
+        &-btn:hover button {
             background-color: #F99400;
             transition: 0.2s ease;
-             color:white
+            color: white
         }
     }
 
@@ -229,7 +230,7 @@
                     background: #F99400;
                     ;
                     transition: 0.2s ease;
-                    color:white
+                    color: white
                 }
             }
 
@@ -253,8 +254,7 @@
                 &:hover {
                     transition: 0.2s ease;
                     background: #F99400;
-                    color:white
-                    ;
+                    color: white;
 
                 }
             }
@@ -276,10 +276,12 @@
 
 .career-improve {
     text-align: center;
-    padding: 120px 0 ;
+    padding: 120px 0;
+
     &_header {
         margin: 0 auto;
         width: 508px;
+
         h2 {
             font-family: 'Averta';
             font-size: 60px;
@@ -301,7 +303,7 @@
         line-height: 36px;
         letter-spacing: 0em;
         text-align: center;
-         margin: 40px 0;
+        margin: 40px 0;
     }
 
     &_btn {
@@ -319,13 +321,15 @@
             outline: none;
             border-radius: 26px;
             transition: 0.2s;
-            a{
+
+            a {
                 text-decoration: none;
                 color: black;
             }
         }
-        button:hover a{
-            color:white;
+
+        button:hover a {
+            color: white;
             transition: 0.2s;
         }
     }
@@ -472,7 +476,7 @@
     .career-white {
         overflow: hidden;
 
-        h2{
+        h2 {
             text-align: center;
             font-size: 30px;
         }
@@ -600,9 +604,149 @@
             }
         }
     }
+
 }
 
-.career-dark-bottom-element:hover{
+.career-dark-bottom-element:hover {
     transition: 0.1s;
     transform: scale(1.05);
+}
+
+.career_video {
+    margin: 133px 9.375%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &_el {
+        width: 1170px;
+        height: 487px;
+        position: relative;
+
+        &_bg {
+            background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+            position: absolute;
+            z-index: 997;
+            width: 100%;
+            height: 100%;
+        }
+
+        video {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            z-index: 995;
+        }
+
+        &_div {
+            position: absolute;
+            top: 40%;
+            left: 45%;
+            z-index: 998;
+
+        }
+
+
+
+    }
+}
+
+.career_vacancies {
+    padding: 0 9.375%;
+
+    &_head {
+        h1 {
+            font-family: 'Averta';
+            font-size: 60px;
+            font-weight: 800;
+            line-height: 72px;
+            letter-spacing: 0em;
+            text-align: left;
+
+            span {
+                color: #F99400
+            }
+        }
+    }
+
+    &_middle {
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+
+        &_cards {
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            padding: 20px 0 30px 20px;
+            width: 370px;
+
+            &_el {
+                &_up {
+                    display: flex;
+                    align-items: center;
+
+                    div {
+                        margin-left: 9px;
+
+                        p {
+                            font-family: 'Averta Demo';
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 19px;
+                            letter-spacing: 0em;
+                            text-align: left;
+                            color: #5E5E5E
+                        }
+                    }
+
+                }
+
+                &_up:nth-child(2) {
+                    margin: 16px 0 20px 0;
+                }
+
+                &_bottom {
+                    p {
+                        font-family: 'Averta Demo';
+                        font-size: 16px;
+                        width: 297px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        letter-spacing: 0em;
+                        text-align: left;
+
+                    }
+                }
+            }
+        }
+    }
+
+    &_btn {
+        margin: 0 auto;
+display: flex;
+align-items: center;
+        button {
+            margin: 54px auto;
+
+            font-family: 'Averta Demo';
+            font-size: 19px;
+            font-weight: 400;
+            line-height: 23px;
+            letter-spacing: 0em;
+            text-align: center;
+            height: 40px;
+            width: 195px;
+            background-color: #F99400;
+            border-radius: 26px;
+            border: none;
+            outline: none;
+            transition: 0.2s;
+
+        }
+        button:hover{
+            color:white;
+            transition: 0.2s;
+        }
+    }
 }
