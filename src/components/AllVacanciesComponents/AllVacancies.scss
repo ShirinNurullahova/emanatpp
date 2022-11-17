@@ -59,9 +59,6 @@
                             @include textStyles('Averta', 20px, 800, #070814, 24px);
                         }
 
-                        // svg {
-                        //     transform: rotate(90deg);
-                        // }
                     }
 
                     .block_list {
@@ -83,7 +80,11 @@
                                 }
                             }
                         }
+                        &.active{
+                            display: none;
+                        }
                     }
+                    
                 }
             }
 
