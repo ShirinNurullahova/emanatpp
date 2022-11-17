@@ -13,7 +13,7 @@ function VacancyDetailButton(props) {
    
   return (
         <div className="VacanciesButton" >
-            <Link to={props.link} style={{textDecoration:"none"}}>
+            <Link to={props.link} >
           <button><p>{props.text}</p></button>
             </Link>
           

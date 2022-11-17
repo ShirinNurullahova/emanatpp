@@ -12,8 +12,10 @@ function VacancyDetail() {
     window.scrollTo(0, 0)
   }, [])
   return (
-    <div>
+    <>
+    <div className="vacancy_detail">
       <BreadCrumbVac />
+        <div className="vacancy_detail_pad">
       <DetailsInfo />
       <Ohdelikler />
       <Telebler />
@@ -21,10 +23,12 @@ function VacancyDetail() {
       <VacancyDetailButton
       link="/contact"
       text="Müraciət et"/>
-      
-      <Tag tags={['#emanat,#fintech,#terminal,#odenisterminali']}/>
+      </div>
+     
 
     </div>
+     <Tag tags={['#emanat,#fintech,#terminal,#odenisterminali']}/>
+     </>
   );
 }
 

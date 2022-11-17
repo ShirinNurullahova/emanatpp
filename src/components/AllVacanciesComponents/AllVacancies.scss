@@ -63,7 +63,7 @@
 
                     .block_list {
                         padding-top: 30px;
-
+                        transition: 10s ease !important;
                         li {
                             &:not(:last-child) {
                                 margin-bottom: 9px;
@@ -82,6 +82,7 @@
                         }
                         &.active{
                             display: none;
+                            transition: 10s ease !important;
                         }
                     }
                     
