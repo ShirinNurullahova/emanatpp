@@ -8,6 +8,9 @@ import TerminalLocationFormPage from './pages/TerminalLocationFormPage';
 import BiznesFormPage from './pages/BiznesFormPage';
 import PaymentPage from './pages/PaymentPage';
 
+import HrPage from './pages/HrPage';
+import HrSecondPage from './pages/HrSecondPage';
+
 const ErrorPage = React.lazy(() => import('./pages/ErrorPage'));
 const AboutPage = React.lazy(() => import('./pages/AboutPage')); // Lazy-loaded
 const CareerPage = React.lazy(() => import('./pages/CareerPage')); // Lazy-loaded
@@ -41,7 +44,8 @@ function App() {
           <Route path="/coorperative" element={<Coorperative />} />
           <Route path='/contact' element={<ContactPage />} />
           <Route path='/faq' element={<FaqPage />} />
-          <Route path='/hr' element={<Hr />} />
+          <Route path='/hr' element={<HrPage />} />
+          <Route path='/internship' element={<HrSecondPage />} />
           <Route path='/newVacancies' element={<NewVacancies />} />
           <Route path='/vacancyDetails' element={<VacancyDetails />} />
           <Route path='/all-vacancies' element={<AllVacanciesPage />} />

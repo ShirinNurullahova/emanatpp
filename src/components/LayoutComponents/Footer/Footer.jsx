@@ -58,7 +58,7 @@ const Footer = () => {
               <Link to='/biznesform'>
               <p>Biznes</p>
               </Link>
-              <Link to='/terminallocation'>
+              <Link to='/payment'>
               <p>Terminal Quraşdırılması</p>
               </Link>
             
@@ -120,7 +120,8 @@ const Footer = () => {
 
               <p><Link to='/all-vacancies'>Vakansiyalar</Link></p>
               <p className='footer-bottom-two-el-b'><Link to={'/contact'}>Onlayn müraciət</Link></p>
-              <p>Təcrübə proqramları</p>
+              <p>
+                <Link to='/internship'>Təcrübə proqramları</Link></p>
             </div>
             <div className='footer-bottom-two-el'>
               <h1>digər</h1>

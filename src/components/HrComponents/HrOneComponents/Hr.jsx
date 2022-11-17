@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import '../HrComponents/Hr.scss'
-import vector from '../../assets/img/shirin/Vector.png'
-import adam from '../../assets/img/shirin/adam.png'
-import logo from '../../assets/img/shirin/logo.png'
-import dots from '../../assets/img/shirin/dots.png'
-import azer from '../../assets/img/azer.png'
-import person from "../../assets/img/bonusPerson.svg"
+import '../../HrComponents/Hr.scss'
+import vector from '../../../assets/img/shirin/Vector.png'
+// import adam from '../../assets/img/shirin/adam.png'
+import logo from '../../../assets/img/shirin/logo.png'
+// import dots from '../../assets/img/shirin/dots.png'
+// import azer from '../../assets/img/azer.png'
+import person from "../../../assets/img/bonusPerson.svg"
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from 'swiper';
 import "swiper/swiper.min.css";

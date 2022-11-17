@@ -8,28 +8,34 @@
     &_left {
         background-color: #0A66B5;
         width: 45%;
-        &_slider{
-            .swiper{
-                .swiper-pagination{
+
+        &_slider {
+            .swiper {
+                .swiper-pagination {
                     margin: 5% auto;
-                 .swiper-pagination-bullet-active{
-                    background-color: #F99400;
-                 }
+
+                    .swiper-pagination-bullet-active {
+                        background-color: #F99400;
+                    }
                 }
             }
         }
-         &-slider{
-            &-div{
+
+        &-slider {
+            &-div {
                 height: 100vh;
             }
-            
-         }
+
+        }
+
         &_element {
             display: flex;
             flex-direction: column;
-                &_dots{
-                    margin: 5% auto;
-                }
+
+            &_dots {
+                margin: 5% auto;
+            }
+
             &_up {
                 padding: 5% 15% 0 15%;
             }
@@ -50,7 +56,7 @@
             }
         }
 
-        &_img{
+        &_img {
             margin-top: -10%;
             display: flex;
             align-items: center;
@@ -62,8 +68,10 @@
         width: 60%;
         display: flex;
         flex-direction: column;
+
         &_btn {
             margin: 70px auto 0 auto;
+
             button {
                 width: 195px;
                 height: 40px;
@@ -77,23 +85,26 @@
                 font-weight: 400;
                 line-height: 24px;
                 letter-spacing: 0em;
-                 transition: 0.2s;
+                transition: 0.2s;
             }
-         button:hover{
-            color:white;
-            transition: 0.2s;
-         }
+
+            button:hover {
+                color: white;
+                transition: 0.2s;
+            }
         }
+
         &_form {
             display: flex;
             flex-direction: column;
             padding-top: 200px;
             padding-left: 130px;
+
             &_element {
                 display: flex;
                 flex-direction: column;
                 margin-bottom: 20px;
-             
+
 
                 input[type="file"] {
                     display: none;
@@ -150,7 +161,7 @@
                     border: 1px solid #D9D9D9 !important;
                 }
 
-                textarea{
+                textarea {
                     padding: 10px;
                     width: 570px;
                     border: 1px solid #D9D9D9;
@@ -158,4 +169,121 @@
             }
         }
     }
+}
+
+.hr_second {
+    padding: 115px 9.375%;
+
+    &_up {
+        div {
+            h1 {
+                font-family: 'Averta';
+                font-size: 60px;
+                font-weight: 800;
+                line-height: 72px;
+                letter-spacing: 0em;
+                text-align: left;
+
+                span {
+                    color: #F99400
+                }
+            }
+
+            p {
+                font-family: 'Averta Demo';
+                font-size: 30px;
+                font-weight: 400;
+                line-height: 36px;
+                letter-spacing: 0em;
+                text-align: left;
+                margin-top: 50px;
+            }
+        }
+    }
+
+    &_middle {
+        margin-top: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    &_btn {
+        margin: 70px auto;
+        text-align: center;
+
+        button {
+            margin: 0 auto;
+            font-family: 'Averta Demo';
+            border: none;
+            outline: none;
+            font-size: 19px;
+            font-weight: 400;
+            line-height: 23px;
+            letter-spacing: 0em;
+            text-align: center;
+            width: 195px;
+            height: 44px;
+            background-color: #F99400;
+            color: black;
+            border-radius: 26px;
+            transition: 0.2s;
+        }
+
+        button a {
+            text-decoration: none;
+            color: black;
+        }
+
+        button:hover a {
+            color: white;
+            transition: 0.2s;
+        }
+    }
+}
+
+.hr_worker {
+    padding: 50px 9.375%;
+
+    div {
+        h1 {
+            font-family: 'Averta';
+            font-size: 60px;
+            font-weight: 800;
+            line-height: 60px;
+            letter-spacing: 0em;
+            text-align: left;
+            width: 800px;
+
+            span {
+                color: #F99400
+            }
+        }
+    }
+
+    &_bottom {
+        margin-top: 70px;
+        display: flex;
+        gap: 30px;
+
+        &_element {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            div {
+                p {
+                    margin-top: 20px;
+                    font-family: 'Averta Demo';
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    text-align: left;
+
+                }
+            }
+        }
+    }
+
 }

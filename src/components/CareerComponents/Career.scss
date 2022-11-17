@@ -720,12 +720,36 @@
                 }
             }
         }
+
+        &_cards:hover {
+            background: #F0F6FB;
+
+            .career_vacancies_middle_cards_el_up {
+                div {
+                    p {
+                        color: #0A66B5;
+                    }
+                }
+                svg {
+                    fill: #0A66B5;
+                }
+              
+            }
+            
+            .career_vacancies_middle_cards_el_bottom {
+                color: #0A66B5;
+                svg {
+                    fill: #0A66B5;
+                }
+            }
+        }
     }
 
     &_btn {
         margin: 0 auto;
-display: flex;
-align-items: center;
+        display: flex;
+        align-items: center;
+
         button {
             margin: 54px auto;
 
@@ -743,9 +767,15 @@ align-items: center;
             outline: none;
             transition: 0.2s;
 
+            a {
+                text-decoration: none;
+                color: #070814
+            }
+
         }
-        button:hover{
-            color:white;
+
+        button:hover a {
+            color: white;
             transition: 0.2s;
         }
     }

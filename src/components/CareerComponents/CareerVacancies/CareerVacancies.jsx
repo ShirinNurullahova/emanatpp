@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 import CareerVacanciesCard from './CareerVacanciesCard/CareerVacanciesCard'
 
 const CareerVacancies = () => {
@@ -12,10 +14,15 @@ const CareerVacancies = () => {
                 <CareerVacanciesCard />
                 <CareerVacanciesCard />
                 <CareerVacanciesCard />
-
+             
             </div>
              <div  className='career_vacancies_btn'>
-                <button>Bütün vakansiyalar</button>
+                <button>
+                    <Link to='/all-vacancies'>
+                    Bütün vakansiyalar
+                    </Link>
+                 
+                    </button>
              </div>
         </div>
     )

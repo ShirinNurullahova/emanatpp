@@ -1,11 +1,11 @@
 import React, { Fragment, useEffect} from 'react'
-const Hr = React.lazy(() => import('../components/HrComponents/Hr')); // Lazy-loaded
+const Hr = React.lazy(() => import('../components/HrComponents/HrOneComponents/Hr')); // Lazy-loaded
 
 
 
 
 
-const ServicesPage = () => {
+const HrPage = () => {
     useEffect(() => {
       document.getElementsByTagName("header")[0].style.background = '#0867b5'
     }, [])
@@ -16,4 +16,4 @@ const ServicesPage = () => {
   )
 }
 
-export default ServicesPage
+export default HrPage
