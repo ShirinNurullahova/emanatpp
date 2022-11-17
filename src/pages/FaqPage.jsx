@@ -7,6 +7,7 @@ import Tag from '../components/LayoutComponents/Tag/Tag'
 const FaqPage = () => {
   useEffect(() => {
     document.getElementsByTagName("header")[0].style.background = '#0867b5'
+    window.scrollTo(0, 0)
   }, [])
 
   return (

@@ -6,6 +6,7 @@ import VacancyDetailButton from '../components/VacancyDetailsComponents/VacancyD
 function NewVacancies() {
     useEffect(() => {
         document.getElementsByTagName("header")[0].style.background = '#0867b5'
+        window.scrollTo(0, 0)
       }, [])
   return (
     <div>

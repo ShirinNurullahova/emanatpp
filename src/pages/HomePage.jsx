@@ -19,6 +19,7 @@ const HomeSocial = React.lazy(() => import('../components/HomeComponents/HomeSoc
 const HomePage = () => {
   useEffect(() => {
     document.getElementsByTagName("header")[0].style.background = ''
+    window.scrollTo(0, 0)
   }, [])
   return (
     <Fragment>

@@ -7,6 +7,7 @@ const Coorperative = () => {
     
     useEffect(() => {
         document.getElementsByTagName("header")[0].style.background = '#0867b5'
+        window.scrollTo(0, 0)
       }, [])
     
   return (

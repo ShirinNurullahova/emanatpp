@@ -6,7 +6,7 @@ const TerminalLocationFormPage = () => {
     useEffect(() => {
         document.getElementsByTagName("header")[0].style.display = 'none'
         document.getElementsByTagName("footer")[0].style.display = 'none'
-
+        window.scrollTo(0, 0)
       }, [])
   return (
     <div>

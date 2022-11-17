@@ -15,6 +15,7 @@ const Tag = React.lazy(() => import('../components/LayoutComponents/Tag/Tag')); 
 const CareerPage = () => {
   useEffect(() => {
     document.getElementsByTagName("header")[0].style.background = '#0867b5'
+    window.scrollTo(0, 0)
   }, [])
   return (
     <Fragment>

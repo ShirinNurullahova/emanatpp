@@ -13,6 +13,8 @@ const Tag = React.lazy(() => import('../components/LayoutComponents/Tag/Tag')); 
 const AboutPage = () => {
   useEffect(() => {
     document.getElementsByTagName("header")[0].style.background = '#0867b5'
+    window.scrollTo(0, 0)
+
   }, [])
 
   const [height, setHeight] = useState()
@@ -20,18 +22,18 @@ const AboutPage = () => {
   const scroll = () => {
     window.scrollTo({
       top: height,
-      behavior:'smooth'
+      behavior: 'smooth'
     })
   }
-  
+
   return (
     <Fragment>
-      <AboutMain scroll={scroll}/>
-      <AboutBlack/>
-      <AboutServices setHeight={setHeight}/>
-      <AboutTarget/>
-      <AboutLocations/>
-      <Tag tags={['#emanat,#fintech,#terminal,#odenisterminali']}/>
+      <AboutMain scroll={scroll} />
+      <AboutBlack />
+      <AboutServices setHeight={setHeight} />
+      <AboutTarget />
+      <AboutLocations />
+      <Tag tags={['#emanat,#fintech,#terminal,#odenisterminali']} />
     </Fragment>
   )
 }
