@@ -36,9 +36,7 @@ const WorkTypes = () => {
             }>
                 {workTypes.map((work, index) => (
                     <li key={index} className='main_block'>
-                        <button className='block_title'>
-                            <p>{work.title}</p>
-                            <div onClick={(e)=>{
+                        <button className='block_title' onClick={(e)=>{
                                 setDrop(true)
                                 const closest = (e.target.closest('.main_block'))
                                
@@ -56,7 +54,9 @@ const WorkTypes = () => {
                                   
                                 }
                                 
-                            }} className={`btn ${!drop ? 'block_title_action' : ""}`}  >
+                            }}>
+                            <p>{work.title}</p>
+                            <div  className={`btn ${!drop ? 'block_title_action' : ""}`}  >
                                 <svg width="18" height="11" viewBox="0 0 18 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M16.998 10L9.10843 1.89112L0.999549 9.78074" stroke="#070814" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                                 </svg>
