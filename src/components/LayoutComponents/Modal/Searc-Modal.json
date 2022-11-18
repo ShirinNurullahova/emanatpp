@@ -12,33 +12,33 @@
     },
     {
         "id": 3,
-        "title": "Map",
+        "title": "Xəritə",
         "link": "/terminal-map"
     },
     {
         "id": 4,
-        "title": "Vacancies",
+        "title": "Vakansiya",
         "link" :"/all-vacancies"
     },
     {
         "id": 5,
-        "title": "Career",
+        "title": "Karyera",
         "link": "/career"
        
     },
     {
         "id": 6,
-        "title": "Business",
+        "title": "Biznes",
         "link" :"biznesform"
     },
     {
         "id": 7,
-        "title": "Internship",
+        "title": "Təcrübə proqramları",
         "link" :"/internship"
     },
     {
         "id": 8,
-        "title": "Marketing",
+        "title": "Marketin1",
         "link": "/marketingform"
     }
 ]
