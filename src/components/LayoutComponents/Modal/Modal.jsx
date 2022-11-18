@@ -18,7 +18,7 @@ const Modal = ({ menuOpen, setMenuOpen, placeholder, data }) => {
         const newFilter = data.filter((value) => {
             return value.title.toLowerCase().includes(searchWord.toLowerCase());
         });
-        console.log(newFilter)
+        // console.log(newFilter)
         const newarr = newFilter.map(e => {
             return {
                 'title': e.title.toUpperCase(),
@@ -36,21 +36,18 @@ const Modal = ({ menuOpen, setMenuOpen, placeholder, data }) => {
         setFilteredData([])
         setWordEntered("")
     }
-//    const box = document.getElementsByClassName('.modal_search');
-
-//    console.log(box);
+   
+const onClickHandler = (e) => {
+   if(e.target.className.includes('modal_container')){
+    setMenuOpen(false)
+   }
+}
   
-        // document.addEventListener('click', (e)=>{
-        //     if(!e.composedPath().includes(box)){
-        //         // boxRef.current.style.display='none'
-        //         console.log(box);
-        //         console.log('girdi');
-        //     }
-        // })
+    
  
     
     return (
-        <div className={`modal_container ${menuOpen ? "active" : ""}`}  >
+        <div className={`modal_container ${menuOpen ? "active" : ""}`} onClick={onClickHandler} >
 
             <div className={`modal_search ${menuOpen && "open"}`} ref={boxRef}>
                 <div className='modal_search_cancel' onClick={open}>
