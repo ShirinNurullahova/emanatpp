@@ -1,6 +1,6 @@
 import React, { Fragment, useRef, useEffect } from 'react'
 import { Link } from 'react-router-dom';
-import humans from '../../../assets/img/shirin/humans.png';
+import humans from '../../../assets/img/adamlar.png';
 import '../../CareerComponents/Career.scss'
 import { gsap } from 'gsap';
 import { ScrollTrigger } from "gsap/ScrollTrigger";

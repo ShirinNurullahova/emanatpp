@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "About",
+         "link": "/about"
+        
+    },
+    {
+        "id": 2,
+        "title": "Location",
+        "link": "/terminallocation"
+    },
+    {
+        "id": 3,
+        "title": "Map",
+        "link": "/terminal-map"
+    },
+    {
+        "id": 4,
+        "title": "Vacancies",
+        "link" :"/all-vacancies"
+    },
+    {
+        "id": 5,
+        "title": "Career",
+        "link": "/career"
+       
+    },
+    {
+        "id": 6,
+        "title": "Business",
+        "link" :"biznesform"
+    },
+    {
+        "id": 7,
+        "title": "Internship",
+        "link" :"/internship"
+    },
+    {
+        "id": 8,
+        "title": "Marketing",
+        "link": "/marketingform"
+    }
+]

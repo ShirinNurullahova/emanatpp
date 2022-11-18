@@ -4,6 +4,7 @@ import './Header.scss'
 import Logo from '../../../assets/img/logo.svg'
 import dropdown from '../../../assets/img/shirin/dropdown.png'
 import SearchIcon from '../../../assets/img/search.svg'
+import BookData from '../../LayoutComponents/Modal/Searc-Modal.json'
 import Modal from '../Modal/Modal'
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -76,7 +77,8 @@ const Header = () => {
           </ul>
         </nav>
       </div>
-      <Modal menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+        <Modal menuOpen={menuOpen} setMenuOpen={setMenuOpen}  placeholder="Axtarış" data={BookData}/>
+      
     </header>
   )
 }
