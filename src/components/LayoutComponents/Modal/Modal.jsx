@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import '../Modal/Modal.scss'
 import lupa from '../../../assets/img/charm_search.png'
@@ -36,8 +36,21 @@ const Modal = ({ menuOpen, setMenuOpen, placeholder, data }) => {
         setFilteredData([])
         setWordEntered("")
     }
+//    const box = document.getElementsByClassName('.modal_search');
+
+//    console.log(box);
+  
+        // document.addEventListener('click', (e)=>{
+        //     if(!e.composedPath().includes(box)){
+        //         // boxRef.current.style.display='none'
+        //         console.log(box);
+        //         console.log('girdi');
+        //     }
+        // })
+ 
+    
     return (
-        <div className={`modal_container ${menuOpen ? "active" : ""}`} >
+        <div className={`modal_container ${menuOpen ? "active" : ""}`}  >
 
             <div className={`modal_search ${menuOpen && "open"}`} ref={boxRef}>
                 <div className='modal_search_cancel' onClick={open}>
