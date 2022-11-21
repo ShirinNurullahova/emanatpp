@@ -46,7 +46,7 @@
                 outline: none;
                 cursor: pointer;
 
-                a{
+                a {
                     font-family: 'Averta Demo';
                     font-style: normal;
                     font-weight: 400;
@@ -57,11 +57,11 @@
                 }
             }
 
-            button:hover{
+            button:hover {
                 transition: 0.2s;
                 background-color: #F99400;
 
-                a{
+                a {
                     color: #FFFFFF;
                 }
             }
@@ -196,14 +196,14 @@
     &-container {
         position: relative;
         display: flex;
-        justify-content: flex-end
-        ;
+        justify-content: flex-end;
+
         &-left {
             width: 576px;
             transform: translateY(220px);
 
-            &-image{
-                img{
+            &-image {
+                img {
                     width: 100%;
                 }
             }
@@ -211,42 +211,60 @@
 
         &-right {
             margin-bottom: 140px;
-            margin-right: 370px;
+            margin-right: 480px;
 
-            ol {
+            ul {
+                list-style: none;
+
                 li {
                     margin-bottom: 30px;
+                    display: flex;
+                    align-items: flex-start;
+                    .up p{
+                        font-family: 'Averta' !important;
+                        font-size: 30px !important;
+                        font-weight: 800 !important;
+                        margin-top: 0 !important;
+                        line-height: 36px !important;
+                        letter-spacing: 0em;
+                        text-align: left;
+
+                    }
+
+                    .element {
+                        display: flex;
+                        flex-direction: column;
+                        margin-left: 20px;
+                    }
 
                     h5 {
                         font-family: 'Averta';
                         font-style: normal;
                         font-weight: 800;
-                        font-size: 16px;
-                        line-height: 19px;
+                        font-size: 30px;
+                        line-height: 36px;
                         color: #FFFFFF;
+
                     }
 
                     p {
                         max-width: 335px;
                         margin-top: 10px;
                         font-family: 'Averta Demo';
-                        font-style: normal;
-                        font-weight: 400;
                         font-size: 16px;
+                        font-weight: 400;
                         line-height: 22px;
+                        letter-spacing: 0em;
+                        text-align: left;
                         color: #FFFFFF;
                     }
+
                 }
 
-                li::marker {
-                    font-family: 'Averta Demo';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 16px;
-                    line-height: 19px;
-                    color: #FFFFFF;
-                    padding-right: 13px !important;
-                }
+
+
+
+
             }
         }
 
@@ -258,23 +276,23 @@
     }
 }
 
-.about-location-section{
-    
-    &-container{
+.about-location-section {
+
+    &-container {
         width: 100%;
         display: flex;
         align-items: center;
 
-        &-left{
+        &-left {
             transform: translateY(-240px);
             width: 521px;
 
-            img{
+            img {
                 width: 100%;
             }
         }
 
-        &-right{
+        &-right {
             padding-right: 67px;
             transform: translateY(-120px);
             width: 70%;
@@ -283,16 +301,16 @@
             align-items: center;
             justify-content: space-between;
 
-            &-card{
+            &-card {
                 display: flex;
                 height: 80px;
 
-                &-icon{
+                &-icon {
                     margin-right: 20px;
                 }
 
-                &-text{
-                    &-heading{
+                &-text {
+                    &-heading {
                         margin-bottom: 5px;
                         font-family: 'Averta';
                         font-style: normal;
@@ -302,7 +320,7 @@
                         color: #F99400;
                     }
 
-                    &-desc{
+                    &-desc {
                         max-width: 180px;
                         font-family: 'Averta Demo';
                         font-style: normal;
@@ -314,7 +332,7 @@
                 }
             }
 
-            
+
         }
     }
 }

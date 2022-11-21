@@ -56,16 +56,16 @@ const Footer = () => {
                 <p>Xidmətlər</p>
               </Link>
               <Link to='/biznesform'>
-              <p>Biznes</p>
+                <p>Biznes</p>
               </Link>
               <Link to='/payment'>
-              <p>Terminal Quraşdırılması</p>
+                <p>Terminal Quraşdırılması</p>
               </Link>
-            
+
               <Link to='/marketingform'>
-              <p>Marketinq</p>
+                <p>Marketinq</p>
               </Link>
-              
+
 
             </div>
             <div className='footer-bottom-up-el'>
@@ -77,37 +77,44 @@ const Footer = () => {
               <h1>sosial media</h1>
               <div className='footer-bottom-up-el_div'>
                 <div className='footer-bottom-up-el_div_img'>
-                  <img src={one}/>
+                  <img src={one} />
                 </div>
                 <div className='footer-bottom-up-el_div_text'>
                   <p>facebook</p>
                 </div>
               </div>
               <div className='footer-bottom-up-el_div'>
-              <div className='footer-bottom-up-el_div_img'>
-                  <img src={two}/>
+                <div className='footer-bottom-up-el_div_img'>
+                  <img src={two} />
                 </div>
                 <div className='footer-bottom-up-el_div_text'>
                   <p>instagram</p>
                 </div>
               </div>
               <div className='footer-bottom-up-el_div'>
-              <div className='footer-bottom-up-el_div_img'>
-                  <img src={three}/>
+                <div className='footer-bottom-up-el_div_img'>
+                  <img src={three} />
                 </div>
                 <div className='footer-bottom-up-el_div_text'>
                   <p>linkedin</p>
                 </div>
               </div>
               <div className='footer-bottom-up-el_div'>
-              <div className='footer-bottom-up-el_div_img'>
-                  <img src={four}/>
+                <div className='footer-bottom-up-el_div_img'>
+                  <img src={four} />
                 </div>
                 <div className='footer-bottom-up-el_div_text'>
                   <p>youtube</p>
                 </div>
               </div>
-             
+              <div className='footer-bottom-up-el_div'>
+                <div className='footer-bottom-up-el_div_img'>
+                  <img src={four} />
+                </div>
+                <div className='footer-bottom-up-el_div_text'>
+                  <p>twitter</p>
+                </div>
+              </div>
 
             </div>
 

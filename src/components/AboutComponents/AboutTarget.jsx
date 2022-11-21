@@ -66,22 +66,41 @@ const AboutTarget = () => {
         </div> */}
 
         <div className="about-target-section-container-right" ref={ulRef}>
-          <ol>
+          <ul>
+
             <li>
-              <h5>Strateji baxışımız</h5>
-              <p>Azərbaycanda ödəniş xidmətləri sahəsində bazar payı və gəlirlilik üzrə lider olmaq</p>
+              <div className='up'>
+                <p>01.</p>
+              </div>
+              <div className='element'>
+                <h5>Strateji baxışımız</h5>
+                <p>Azərbaycanda ödəniş xidmətləri sahəsində bazar payı və gəlirlilik üzrə lider olmaq</p>
+              </div>
+
             </li>
 
             <li>
-              <h5>Missiyamız</h5>
-              <p>Bizim missiyamız xidmətlərin ödənişini sürətli, rahat, etibarlı və hamı üçün əlçatan etməklə insanların həyatını asanlaşdırmaqdır</p>
+              <div className='up'>
+                <p>02.</p></div>
+              <div className='element'>
+                <h5>Missiyamız</h5>
+                <p>Bizim missiyamız xidmətlərin ödənişini sürətli, rahat, etibarlı və hamı üçün əlçatan etməklə insanların həyatını asanlaşdırmaqdır</p>
+              </div>
+
             </li>
 
             <li>
-              <h5>Dəyərlərimiz</h5>
-              <p>Qətiyyətli dürüstlük<br />Müştəriyönümlü yanaşma<br /> Etibarlılıq <br /> İnnovativlik <br /> Keyfiyyət <br /> Təkmilləşmə</p>
+
+              <div className='up'>
+                <p>03.</p></div>
+              <div className='element'>
+                <h5>Dəyərlərimiz</h5>
+                <p>Qətiyyətli dürüstlük, Müştəriyönümlü yanaşma, Etibarlılıq, İnnovativlik, Keyfiyyət
+                  Təkmilləşmə</p>
+              </div>
+
             </li>
-          </ol>
+          </ul>
         </div>
 
         <div className="about-target-section-container-end">

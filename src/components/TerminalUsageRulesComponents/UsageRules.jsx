@@ -1,6 +1,6 @@
 import React from 'react'
 import RulesList from './RulesList';
-import person8 from '../../assets/img/person 8 1.png';
+import term from '../../assets/img/shirin/term.jpg';
 
 const UsageRules = () => {
     return (
@@ -10,7 +10,7 @@ const UsageRules = () => {
                 <RulesList />
             </div>
             <div className='person_image'>
-                <img src={person8} alt="" />
+                <img src={term} alt="" />
             </div>
         </section>
     )

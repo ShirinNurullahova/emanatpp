@@ -29,7 +29,7 @@ const CareerMain = () => {
                 <main className='career-main'>
                     <div className='career-main-one' ref={mainRef}>
                         <h1 className='career-main-one-h1'>
-                            <span className='career-main-one-h1-span'> eMANAT KARYERA </span>
+                            <span className='career-main-one-h1-span'> eManat KARYERA </span>
                             PLATFORMASINA XOŞ GƏLMİSİNİZ!
                         </h1>
                         <p className="career-main-one-p">
