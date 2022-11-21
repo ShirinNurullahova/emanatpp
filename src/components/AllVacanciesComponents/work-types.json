@@ -5,25 +5,40 @@
             {"item": "Tam iş günü"},
             {"item": "Yarım iş günü"},
             {"item": "Uzaqdan işləmə"},
+            {"item": "Sərbəst iş qrafiki"},
             {"item": "Təcrübə"}
         ]
     },
     {
         "title": "İş Bacarıqları",
         "elements": [
-            {"item": "Faster"},
-            {"item": "Responsible"},
-            {"item": "Accuracy"},
-            {"item": "Group work"}
+            {"item": "Satış"},
+            {"item": "Nəzarət"},
+            {"item": "İnformasiya təhlükəsizliyi - Kibertəhlükəsizlik"},
+            {"item": "Analitika"},
+            {"item": "Müştəri xidmətləri"},
+            {"item": "Maliyyə"},
+            {"item": "Bank əməliyyatları"},
+            {"item": "Büdcə"},
+            {"item": "Risk"},
+            {"item": "Hüquq"},
+            {"item": "Kredit / Anderrayting "},
+            {"item": "Layihələrin idarə edilməsi"},
+            {"item": "Marketing"},
+            {"item": "İnsan resurslarının idarə edilməsi"},
+            {"item": "İnzibati sahə"},
+            {"item": "Mühasibatlıq"},
+            {"item": "İT proqramlaşdırma"},
+            {"item": "İnformasiya Texnologiyaları"}
         ]
     },
     {
         "title": "Vəzifə",
         "elements": [
-            {"item": "Front End"},
-            {"item": "Back End"},
-            {"item": "Manager"},
-            {"item": "Designer"}
+            {"item": "Kiçik mütəxəssis / Mütəxəssis"},
+            {"item": "Aparıcı mütəxəssis / Baş Mütəxəssis"},
+            {"item": "Menecer"},
+            {"item": "Şöbə müdiri"}
         ]
     },
     {

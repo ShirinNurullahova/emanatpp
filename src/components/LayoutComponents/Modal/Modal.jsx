@@ -40,6 +40,7 @@ const Modal = ({ menuOpen, setMenuOpen, placeholder, data }) => {
 const onClickHandler = (e) => {
    if(e.target.className.includes('modal_container')){
     setMenuOpen(false)
+    document.getElementsByTagName('body')[0].style.overflowY = 'scroll'
    }
 }
   

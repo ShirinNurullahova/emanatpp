@@ -7,6 +7,8 @@ import one from '../../../assets/img/shirin/1.png'
 import two from '../../../assets/img/shirin/2.png'
 import three from '../../../assets/img/shirin/3.png'
 import four from '../../../assets/img/shirin/4.png'
+import twit from '../../../assets/img/shirin/tvit.png'
+
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Tag from '../Tag/Tag';
 gsap.registerPlugin(ScrollTrigger)
@@ -109,7 +111,7 @@ const Footer = () => {
               </div>
               <div className='footer-bottom-up-el_div'>
                 <div className='footer-bottom-up-el_div_img'>
-                  <img src={four} />
+                  <img src={twit} />
                 </div>
                 <div className='footer-bottom-up-el_div_text'>
                   <p>twitter</p>
