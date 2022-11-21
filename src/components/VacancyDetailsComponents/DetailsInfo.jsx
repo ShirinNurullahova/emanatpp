@@ -2,13 +2,13 @@ import React from "react";
 import dateIcon from "../../assets/img/dateIcon.svg";
 import "./VacancyDetails.scss";
 
-function DetailsInfo() {
+function DetailsInfo({filteredNews}) {
+  const news = (filteredNews[0])
   return (
     <div className="detailsInfo">
       <div className="heading">
         <h1>
-          Şəmkir rayon filialına Xidmət bölməsində Müştərilərlə iş üzrə kiçik
-          mütəxəssis
+          {news.desc}
         </h1>
       </div>
 
@@ -17,7 +17,7 @@ function DetailsInfo() {
           <img src={dateIcon}></img>
         </div>
         <div className="date-text">
-          <p>Son müraciət tarixi: 8.11.2022</p>
+          <p>Son müraciət tarixi: {news.date}</p>
         </div>
       </div>
 

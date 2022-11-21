@@ -1,9 +1,16 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState} from 'react';
 import { Link } from 'react-router-dom';
-
+import {useParams} from 'react-router-dom'
 import data from '../AllVacanciesComponents/all-list.json'
 import CareerVacanciesCard from '../CareerComponents/CareerVacancies/CareerVacanciesCard/CareerVacanciesCard';
 const VacanciesList = () => {
+    const params = useParams()
+    // console.log(params);
+    const {id} = params
+  
+    // const filteredNews = data.filter((item) => item.id == id)
+
+    // console.log(id)
     const searchRef = useRef(null);
    
     function clearSearchInput() {

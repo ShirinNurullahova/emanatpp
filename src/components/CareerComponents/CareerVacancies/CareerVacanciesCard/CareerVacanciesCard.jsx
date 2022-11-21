@@ -1,11 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 
-const CareerVacanciesCard = ({listEl, index , cardWidth}) => {
- 
+const CareerVacanciesCard = ({listEl, index , cardWidth, filteredNews}) => {
+   
     return (
         <>
-            <Link to='/vacancyDetails' key={index}>
+            <Link to={`${listEl.id}`} key={index}>
                 <div className={`career_vacancies_middle_cards ${cardWidth ? 'addition' : ""}`}>
                     <div className='career_vacancies_middle_cards_el'>
                         <div className='career_vacancies_middle_cards_el_up'>
