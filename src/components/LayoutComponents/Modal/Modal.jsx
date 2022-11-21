@@ -18,7 +18,7 @@ const Modal = ({ menuOpen, setMenuOpen, placeholder, data }) => {
         const newFilter = data.filter((value) => {
             return value.title.toLowerCase().includes(searchWord.toLowerCase());
         });
-        // console.log(newFilter)
+        
         const newarr = newFilter.map(e => {
             return {
                 'title': e.title.toUpperCase(),

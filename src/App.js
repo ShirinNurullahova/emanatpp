@@ -47,7 +47,7 @@ function App() {
           <Route path='/hr' element={<HrPage />} />
           <Route path='/internship' element={<HrSecondPage />} />
           <Route path='/newVacancies' element={<NewVacancies />} />
-          <Route path='/vacancyDetails' element={<VacancyDetails />} />
+          <Route path='/all-vacancies/:id' element={<VacancyDetails />} />
           <Route path='/all-vacancies' element={<AllVacanciesPage />} />
           <Route path='/terminal-map' element={<TerminalMapPage />} />
           <Route path='/terminal-usage-rules' element={<TerminalUsageRulesPage />} />

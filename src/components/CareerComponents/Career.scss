@@ -674,13 +674,20 @@
         margin-top: 60px;
         display: flex;
         justify-content: space-between;
-
+      
+        a{
+            text-decoration: none;
+            .addition{
+                width: 100% !important;
+            }
+        }
         &_cards {
             box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
             padding: 20px 0 30px 20px;
             width: 370px;
-
+            margin-bottom: 70px;
+           
             &_el {
                 &_up {
                     display: flex;
@@ -715,12 +722,14 @@
                         line-height: 24px;
                         letter-spacing: 0em;
                         text-align: left;
-
+                         color:#070814;
                     }
                 }
             }
         }
-
+        .addition{
+            width: 100%;
+        }
         &_cards:hover {
             background: #F0F6FB;
 
@@ -738,6 +747,9 @@
             
             .career_vacancies_middle_cards_el_bottom {
                 color: #0A66B5;
+                p{
+                    color: #0A66B5;  
+                }
                 svg {
                     fill: #0A66B5;
                 }

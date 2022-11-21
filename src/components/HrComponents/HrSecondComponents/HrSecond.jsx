@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import CareerVacanciesCard from '../../CareerComponents/CareerVacancies/CareerVacanciesCard/CareerVacanciesCard'
+import CareerVacanciesCard from '../../CareerComponents/CareerVacancies/CareerVacanciesCard/CareerVacanciesCard';
+import data from '../HrSecondComponents/internship.json'
 import '../../HrComponents/Hr.scss'
 import '../../CareerComponents/Career.scss'
 const HrSecond = () => {
@@ -17,12 +18,10 @@ const HrSecond = () => {
             </div>
 
             <div className='hr_second_middle'>
-                <CareerVacanciesCard />
-                <CareerVacanciesCard />
-                <CareerVacanciesCard />
-                <CareerVacanciesCard />
-                <CareerVacanciesCard />
-                <CareerVacanciesCard />
+            {data.map((listEl, index) => (
+                    <CareerVacanciesCard listEl={listEl} index={index}/>
+                )
+             )}
             </div>
 
             <div className='hr_second_btn'>

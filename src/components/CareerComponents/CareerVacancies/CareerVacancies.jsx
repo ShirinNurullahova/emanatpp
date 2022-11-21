@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import vacancieList from '../CareerVacancies/vacancie-list.json'
 import CareerVacanciesCard from './CareerVacanciesCard/CareerVacanciesCard'
 
 const CareerVacancies = () => {
@@ -11,9 +11,10 @@ const CareerVacancies = () => {
                 <h1><span>Yeni</span> vakansiyalar</h1>
             </div>
             <div className='career_vacancies_middle'>
-                <CareerVacanciesCard />
-                <CareerVacanciesCard />
-                <CareerVacanciesCard />
+            {vacancieList.map((listEl, index) => (
+                    <CareerVacanciesCard listEl={listEl} index={index}/>
+                )
+             )}
              
             </div>
              <div  className='career_vacancies_btn'>

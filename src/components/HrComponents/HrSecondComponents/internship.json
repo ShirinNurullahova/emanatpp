@@ -1,0 +1,31 @@
+[
+    {
+        "location": "Kürdəmir / Mərkəz Fillialı",
+        "date": "27.10.2022",
+        "desc": "Kürdəmir şəhərində mühafizəçi"
+    },
+    {
+        "location": "Kürdəmir / Mərkəz Fillialı",
+        "date": "27.02.2023",
+        "desc": "Kürdəmir şəhərində İnkassator"
+    }, {
+        "location": "Kürdəmir / Mərkəz Fillialı",
+        "date": "27.11.2022",
+        "desc": "Kürdəmir şəhərində Sürücü"
+    }
+    , {
+        "location": "Şəki / Mərkəz Fillialı",
+        "date": "27.10.2022",
+        "desc": "Şəki şəhərində İnkassator"
+    }
+    , {
+        "location": "Şəki / Mərkəz Fillialı",
+        "date": "27.02.2023",
+        "desc": "Şəki şəhərində sürücü"
+    }
+    , {
+        "location": "Şəki / Mərkəz Fillialı",
+        "date": "27.10.2022",
+        "desc": "Müştərilərə Xidmət şöbəsinin mütəxəssisi"
+    }
+]

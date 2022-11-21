@@ -25,7 +25,7 @@
         padding: 0 21% 0 9.2%;
         display: flex;
         justify-content: space-between;
-
+         
         .work_types_part {
             display: flex;
             justify-content: space-between;
@@ -150,7 +150,9 @@
             .vacancie_conntainer {
                 a {
                     text-decoration: none;
-
+                     .addition{
+                        width: 100%;
+                     }
                     .vacancie_details_item {
                         margin-top: 75px;
                         padding: 30px 20% 30px 30px;

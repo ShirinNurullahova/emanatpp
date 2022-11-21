@@ -206,10 +206,14 @@
         display: flex;
         flex-wrap: wrap;
         gap: 30px;
+        // padding-right: 135px;
+        a{
+            text-decoration: none;
+        }
     }
 
     &_btn {
-        margin: 70px auto;
+        margin: 0 auto 70px auto;
         text-align: center;
 
         button {
