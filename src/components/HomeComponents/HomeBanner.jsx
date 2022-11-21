@@ -1,5 +1,5 @@
 import React,{useEffect, useRef} from 'react'
-import HomeBannerVector from '../../assets/img/home-bg-vectors.png'
+import HomeBannerVector from '../../assets/img/news.png'
 import { gsap } from 'gsap';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Link } from 'react-router-dom';
