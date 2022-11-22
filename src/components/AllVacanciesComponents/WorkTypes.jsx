@@ -14,26 +14,24 @@ const WorkTypes = () => {
 
 
     // Firstly detected default heights of lines
-    useEffect(() => {
-        activeLineDefaultHeight = sideLineActive.current.offsetHeight;
-        lineDefaultHeight = sideLine.current.offsetHeight;
-        defaultSpace = lineDefaultHeight - activeLineDefaultHeight;
+    // useEffect(() => {
+    //     activeLineDefaultHeight = sideLineActive.current.offsetHeight;
+    //     lineDefaultHeight = sideLine.current.offsetHeight;
+    //     defaultSpace = lineDefaultHeight - activeLineDefaultHeight;
 
-    }, [sideLineActive, sideLine])
+    // }, [sideLineActive, sideLine])
 
     // Height of active line changes when scrolled 
-    function onScroll(e) {
-        const scrollHeight = +e.target.scrollHeight - +e.target.offsetHeight;
-        const currentScrollHeight = (e.target.scrollTop * defaultSpace) / scrollHeight;
-        const finalAddHeight = activeLineDefaultHeight + currentScrollHeight;
-        sideLineActive.current.style.height = `${finalAddHeight}px`;
-    }
+    // function onScroll(e) {
+    //     const scrollHeight = +e.target.scrollHeight - +e.target.offsetHeight;
+    //     const currentScrollHeight = (e.target.scrollTop * defaultSpace) / scrollHeight;
+    //     const finalAddHeight = activeLineDefaultHeight + currentScrollHeight;
+    //     sideLineActive.current.style.height = `${finalAddHeight}px`;
+    // }
    
     return (
         <div className='work_types_part'>
-            <ul className='type_block' onScroll={e => onScroll(e)
-            
-            }>
+            <ul className='type_block'>
                 {workTypes.map((work, index) => (
                     <li key={index} className='main_block'>
                         <button className='block_title' onClick={(e)=>{
@@ -79,10 +77,10 @@ const WorkTypes = () => {
                     </li>
                 ))}
             </ul>
-            <div className='side_line' ref={sideLine}>
+            {/* <div className='side_line' ref={sideLine}>
                 <div className='side_line_back'></div>
                 <div className='side_line_active' ref={sideLineActive}></div>
-            </div>
+            </div> */}
         </div>
     )
 }

@@ -17,20 +17,20 @@ const Places = ({ setZoom, setCenter }) => {
                 setCenter(response.results[0].geometry.location);
                 setZoom(15);
             },
-            (error) => {}
+            (error) => { }
         );
     }
 
     function getLocationLngLat(loc) {
         const lat = loc[1];
         const lng = loc[0];
-        setCenter({lat, lng})
+        setCenter({ lat, lng })
         setZoom(18);
-        for(const marker of markers ) {
-            if(marker.className.includes("selected_marker")) {
+        for (const marker of markers) {
+            if (marker.className.includes("selected_marker")) {
                 marker.classList.remove("selected_marker");
             }
-            if(+marker.getAttribute('lat') === lat && +marker.getAttribute('lng')) {
+            if (+marker.getAttribute('lat') === lat && +marker.getAttribute('lng')) {
                 marker.classList.add("selected_marker");
             }
         }
@@ -41,10 +41,10 @@ const Places = ({ setZoom, setCenter }) => {
             <div className='select_place_options'>
                 <button className='address_button'>
                     <form onSubmit={getLocation}>
-                        <input 
-                            type="text" 
-                            autoComplete='false' 
-                            placeholder='Ünvan' 
+                        <input
+                            type="text"
+                            autoComplete='false'
+                            placeholder='Ünvan'
                             onChange={e => setInput(e.target.value)}
                         />
                         <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -54,10 +54,10 @@ const Places = ({ setZoom, setCenter }) => {
                 </button>
                 <button className='street_button'>
                     <form onSubmit={getLocation}>
-                        <input 
-                            type="text" 
-                            autoComplete='false' 
-                            placeholder='Küçə' 
+                        <input
+                            type="text"
+                            autoComplete='false'
+                            placeholder='Küçə'
                             onChange={e => setInput(e.target.value)}
                         />
                         <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">

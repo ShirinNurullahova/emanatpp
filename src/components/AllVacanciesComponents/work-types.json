@@ -40,14 +40,5 @@
             {"item": "Menecer"},
             {"item": "Şöbə müdiri"}
         ]
-    },
-    {
-        "title": "Something",
-        "elements": [
-            {"item": "Something"},
-            {"item": "Something"},
-            {"item": "Something"},
-            {"item": "Something"}
-        ]
     }
 ]

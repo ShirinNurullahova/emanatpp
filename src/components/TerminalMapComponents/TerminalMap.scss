@@ -3,10 +3,8 @@
 
 .terminal_map_section {
     padding: 90px 9.2% 190px 9.2%;
-
     &_heading{
         margin-bottom: 65px;
-
         h1 {
             margin-bottom: 15px;
             @include textStyles('Averta', 60px, 800, #070814, 72px);
@@ -15,13 +13,11 @@
                 color: #F99400;
             }
         }
-    
         p {
             @include textStyles('Averta Demo', 20px, 400, #070814, 24px);
             margin-left: 5px;
         }
     }
-
     .terminals_map_container {
         display: flex;
         justify-content: space-between;
