@@ -3,32 +3,8 @@ import workTypes from './work-types.json';
 
 const WorkTypes = () => {
     const [drop, setDrop] = useState(true)
-    const sideLine = useRef(null);
-    const sideLineActive = useRef(null);
-    let activeLineDefaultHeight;
-    let lineDefaultHeight;
-    let defaultSpace;
-
     
 
-
-
-    // Firstly detected default heights of lines
-    // useEffect(() => {
-    //     activeLineDefaultHeight = sideLineActive.current.offsetHeight;
-    //     lineDefaultHeight = sideLine.current.offsetHeight;
-    //     defaultSpace = lineDefaultHeight - activeLineDefaultHeight;
-
-    // }, [sideLineActive, sideLine])
-
-    // Height of active line changes when scrolled 
-    // function onScroll(e) {
-    //     const scrollHeight = +e.target.scrollHeight - +e.target.offsetHeight;
-    //     const currentScrollHeight = (e.target.scrollTop * defaultSpace) / scrollHeight;
-    //     const finalAddHeight = activeLineDefaultHeight + currentScrollHeight;
-    //     sideLineActive.current.style.height = `${finalAddHeight}px`;
-    // }
-   
     return (
         <div className='work_types_part'>
             <ul className='type_block'>
@@ -44,12 +20,14 @@ const WorkTypes = () => {
                                 if ( !spesific.className.includes('active')) {
                                     spesific.classList.add('active')
                                     spbtn.style.transform='rotate(180deg)'
-                              
+                                    // spesific.style.transition="none";
+
                                 }
                                 else {
                                     spesific.classList.remove('active')
                                     spbtn.style.transform='rotate(360deg)'
-                                  
+                                    // spesific.style.transition="all 0.1s ease 0s ,visibility 0s ease 0.1s, z-index 0s ease 0.01s ";
+
                                 }
                                 
                             }}>
@@ -77,10 +55,7 @@ const WorkTypes = () => {
                     </li>
                 ))}
             </ul>
-            {/* <div className='side_line' ref={sideLine}>
-                <div className='side_line_back'></div>
-                <div className='side_line_active' ref={sideLineActive}></div>
-            </div> */}
+         
         </div>
     )
 }

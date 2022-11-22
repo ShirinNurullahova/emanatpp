@@ -75,7 +75,10 @@
 
                     .block_list {
                         padding-top: 30px;
-                        transition: 10s ease !important;
+                        height: auto;
+                        opacity: 1;
+                        z-index: 1;
+                         visibility: visible;
                         li {
                             list-style: none;
                             &:not(:last-child) {
@@ -94,8 +97,10 @@
                             }
                         }
                         &.active{
-                            display: none;
-                            transition: 10s ease !important;
+                            visibility: hidden;
+                       height: 0;
+                       z-index: -1;
+                    //   transition: e;
                         }
                     }
                     

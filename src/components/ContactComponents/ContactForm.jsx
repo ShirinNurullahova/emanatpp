@@ -3,6 +3,8 @@ import React, { useEffect } from 'react'
 const ContactForm = () => {
   useEffect(() => {
     document.getElementsByTagName("header")[0].style.background = '#0867b5'
+    document.getElementsByTagName("header")[0].style.display = 'block'
+    document.getElementsByTagName("footer")[0].style.display = 'block'
   }, [])
   return (
     <section className='contact-section'>
