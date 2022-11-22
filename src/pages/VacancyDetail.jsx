@@ -11,6 +11,10 @@ import data from '../components/AllVacanciesComponents/all-list.json'
 function VacancyDetail() {
   useEffect(() => {
     document.getElementsByTagName("header")[0].style.background = '#0867b5'
+    document.getElementsByTagName("header")[0].style.display = 'block'
+    document.getElementsByTagName("footer")[0].style.display = 'block'
+
+
     window.scrollTo(0, 0)
   }, [])
   const params = useParams()
