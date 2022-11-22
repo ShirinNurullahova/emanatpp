@@ -46,4 +46,43 @@
         "date": "04.10.2022",
         "desc": "Frontend proqramçı"
     }
+    , {
+        "id" :"9",
+        "location": "Bakı / Mərkəz Fillialı",
+        "date": "04.10.2022",
+        "desc": "Software architect"
+    }
+    , {
+        "id" :"10",
+        "location": "Bakı / Mərkəz Fillialı",
+        "date": "04.10.2022",
+        "desc": "Kiçik backend proqramçı "
+    }
+    , {
+        "id" :"11",
+        "location": "Bakı / Mərkəz Fillialı",
+        "date": "04.10.2022",
+        "desc": " Aparıcı backend proqram"
+      
+    }
+    , {
+        "id" :"12",
+        "location": "Bakı / Mərkəz Fillialı",
+        "date": "04.10.2022",
+        "desc": "  IT Biznes Analitik"
+      
+    }
+    , {
+        "id" :"13",
+        "location": "Bakı / Mərkəz Fillialı",
+        "date": "04.10.2022",
+        "desc": " Software architect"
+       
+    }
+    , {
+        "id" :"14",
+        "location": "Bakı / Mərkəz Fillialı",
+        "date": "20.09.2022",
+        "desc": "Mühafizəçi"
+    }
 ]

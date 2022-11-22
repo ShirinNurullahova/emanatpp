@@ -46,6 +46,7 @@ function App() {
           <Route path='/faq' element={<FaqPage />} />
           <Route path='/hr' element={<HrPage />} />
           <Route path='/internship' element={<HrSecondPage />} />
+          <Route path='/internship/:id' element={<BonusPage />} />
           <Route path='/newVacancies' element={<NewVacancies />} />
           <Route path='/all-vacancies/:id' element={<VacancyDetails />} />
           <Route path='/all-vacancies' element={<AllVacanciesPage />} />

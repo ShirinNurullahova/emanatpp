@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
 
-const CareerVacanciesCard = ({listEl, index , cardWidth, filteredNews}) => {
+const CareerVacanciesCard = ({listEl, index , cardWidth}) => {
    
     return (
         <>

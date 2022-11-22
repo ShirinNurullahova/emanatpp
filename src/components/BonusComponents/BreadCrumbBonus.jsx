@@ -8,7 +8,7 @@ function BreadCrumbBonus() {
       <Link to='/'>
         <div className='homePath'>Ana səhifə </div>
       </Link>
-      <Link to='/homeNews'>
+      <Link to='/news'>
         <div className='homePath'> / Xəbərlər</div>
       </Link>
 

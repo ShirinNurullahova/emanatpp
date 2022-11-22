@@ -4,7 +4,7 @@ import CareerVacanciesCard from '../../CareerComponents/CareerVacancies/CareerVa
 import data from '../HrSecondComponents/internship.json'
 import '../../HrComponents/Hr.scss'
 import '../../CareerComponents/Career.scss'
-const HrSecond = () => {
+const HrSecond = ({}) => {
 
     return (
         <div className='hr_second'>
