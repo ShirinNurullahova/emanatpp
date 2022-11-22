@@ -47,6 +47,7 @@ function App() {
           <Route path='/hr' element={<HrPage />} />
           <Route path='/internship' element={<HrSecondPage />} />
           <Route path='/internship/:id' element={<VacancyDetails/>} />
+          <Route path="/career/:id" element={< VacancyDetails/>} />
           <Route path='/newVacancies' element={<NewVacancies />} />
           <Route path='/all-vacancies/:id' element={<VacancyDetails />} />
           <Route path='/all-vacancies' element={<AllVacanciesPage />} />

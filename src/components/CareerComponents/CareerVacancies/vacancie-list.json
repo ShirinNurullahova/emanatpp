@@ -1,14 +1,17 @@
 [
     {
+        "id":"1",
         "location": "Kürdəmir / Mərkəz Fillialı",
         "date": "27.10.2022",
         "desc": "Kürdəmir şəhərində mühafizəçi"
     },
     {
+        "id":"2",
         "location": "Kürdəmir / Mərkəz Fillialı",
         "date": "27.02.2023",
         "desc": "Kürdəmir şəhərində İnkassator"
     }, {
+        "id":"3",
         "location": "Kürdəmir / Mərkəz Fillialı",
         "date": "27.11.2022",
         "desc": "Kürdəmir şəhərində Sürücü"
