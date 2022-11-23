@@ -18,7 +18,7 @@ const Modal = ({ menuOpen, setMenuOpen, placeholder, data }) => {
         const newFilter = data.filter((value) => {
             return value.title.toLowerCase().includes(searchWord.toLowerCase());
         });
-        
+
         const newarr = newFilter.map(e => {
             return {
                 'title': e.title.toUpperCase(),
@@ -36,17 +36,17 @@ const Modal = ({ menuOpen, setMenuOpen, placeholder, data }) => {
         setFilteredData([])
         setWordEntered("")
     }
-   
-const onClickHandler = (e) => {
-   if(e.target.className.includes('modal_container')){
-    setMenuOpen(false)
-    document.getElementsByTagName('body')[0].style.overflowY = 'scroll'
-   }
-}
-  
-    
- 
-    
+
+    const onClickHandler = (e) => {
+        if (e.target.className.includes('modal_container')) {
+            setMenuOpen(false)
+            document.getElementsByTagName('body')[0].style.overflowY = 'scroll'
+        }
+    }
+
+
+
+
     return (
         <div className={`modal_container ${menuOpen ? "active" : ""}`} onClick={onClickHandler} >
 
@@ -61,20 +61,20 @@ const onClickHandler = (e) => {
                     <div>
                         <img src={lupa} />
                     </div>
-                    <input type="text" placeholder={placeholder} value={wordEntered}
+                    <input type="text" value={wordEntered} placeholder={placeholder} 
                         onChange={handleFilter} />
                     {filteredData.length != 0 && (
                         <div className="dataResult" >
                             {filteredData.slice(0, 5).map((value, index) => {
                                 return (
                                     <Link to={value.link} onClick={open}>
-                                     <div className='item-div'>
-                                        <p className="dataItem" onClick={clearInput} >
-                                            {value.title}
-                                        </p>
-                                    </div>
+                                        <div className='item-div'>
+                                            <p className="dataItem" onClick={clearInput} >
+                                                {value.title}
+                                            </p>
+                                        </div>
                                     </Link>
-                                   
+
                                 );
                             })}
                         </div>
@@ -82,7 +82,7 @@ const onClickHandler = (e) => {
                 </div>
 
             </div>
-           
+
         </div>
     )
 }

@@ -28,7 +28,7 @@ const BiznesForm = () => {
                         <form>
                             <div className="biznes_form_right_form_element">
                                 <label>Şirkətin adı<img className='star' src={star} /></label>
-                                <input type="ad" placeholder='' name="" id="" required/>
+                                <input required type="ad" placeholder='' name="" id="" />
                             </div>
                             <div className='biznes_form_right_form_div'>
                                 <p>Nullam viverra, sem a semper varius, neque nunc blandit tortor, id lobortis odio tortor ac urna. Nec tellus ornare commodo.</p>

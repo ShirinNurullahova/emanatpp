@@ -45,7 +45,7 @@ const Header = () => {
 
         <div className="header-container-search">
           <label>
-            <input type="text" onMouseDown={toggle}/>
+            <input type="text" readOnly onMouseDown={toggle}/>
 
             <img  src={SearchIcon} alt="emanat-axtaris" loading="lazy" />
           </label>
