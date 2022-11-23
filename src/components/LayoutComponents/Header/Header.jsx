@@ -45,9 +45,9 @@ const Header = () => {
 
         <div className="header-container-search">
           <label>
-            <input type="text" />
+            <input type="text" onMouseDown={toggle}/>
 
-            <img onClick={toggle} src={SearchIcon} alt="emanat-axtaris" loading="lazy" />
+            <img  src={SearchIcon} alt="emanat-axtaris" loading="lazy" />
           </label>
         </div>
 

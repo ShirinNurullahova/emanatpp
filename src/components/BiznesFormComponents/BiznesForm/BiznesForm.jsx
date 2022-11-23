@@ -28,7 +28,7 @@ const BiznesForm = () => {
                         <form>
                             <div className="biznes_form_right_form_element">
                                 <label>Şirkətin adı<img className='star' src={star} /></label>
-                                <input type="ad" placeholder='' name="" id="" />
+                                <input type="ad" placeholder='' name="" id="" required/>
                             </div>
                             <div className='biznes_form_right_form_div'>
                                 <p>Nullam viverra, sem a semper varius, neque nunc blandit tortor, id lobortis odio tortor ac urna. Nec tellus ornare commodo.</p>
@@ -41,7 +41,7 @@ const BiznesForm = () => {
 
 
                                     <label className='lb'>
-                                        <input className='' type="radio" checked name='radio'/>
+                                        <input className='' type="radio" checked name='radio' required/>
                                     </label>
 
 
@@ -55,7 +55,7 @@ const BiznesForm = () => {
 
 
                                         <label className='lb'>
-                                            <input className='' type="radio"  name='radio'/>
+                                            <input className='' type="radio"  name='radio' required/>
                                         </label>
 
 
@@ -67,40 +67,41 @@ const BiznesForm = () => {
 
                             <div className="biznes_form_right_form_element">
                                 <label>Xidmət növü<img className='star' src={star} /></label>
-                                <input type="ad" placeholder='bank, internet, tv, karqo,kommunal və s.' name="" id="" />
+                                <input type="ad" placeholder='bank, internet, tv, karqo,kommunal və s.' name="" id="" required/>
                             </div>
                             <div className="biznes_form_right_form_element">
                                 <label>Bir nəfər üçün orta aylıq ödəniş məbləği<img className='star' src={star} /></label>
-                                <input type="ad" placeholder='' name="" id="" />
+                                <input type="ad" placeholder='' name="" id="" required/>
                             </div>
                             <div className="biznes_form_right_form_element">
                                 <label>Şirkətin aylıq dövriyyəsi<img className='star' src={star} /></label>
-                                <input type="ad" placeholder='50' name="" id="" />
+                                <input type="ad" placeholder='50' name="" id="" required/>
                             </div>
                             <div className="biznes_form_right_form_element">
                                 <label>Ad, Soyad <img className='star' src={star} /></label>
-                                <input type="ad" placeholder='Ad,soyad' name="" id="" />
+                                <input type="ad" placeholder='Ad,soyad' name="" id="" required/>
                             </div>
                             <div className="biznes_form_right_form_element">
                                 <label>Nömrə<img className='star' src={star} /></label>
-                                <input type="ad" placeholder='+994' name="" id="" />
+                                <input type="ad" placeholder='+994' name="" id="" required/>
                             </div>
                             <div className="biznes_form_right_form_element">
                                 <label>E-poçt<img className='star' src={star} /></label>
-                                <input type="ad" placeholder='user@gmail.com' name="" id="" />
+                                <input type="ad" placeholder='user@gmail.com' name="" id="" required/>
                             </div>
-                        </form>
-
-                    </div>
-                    <div className='biznes_form_right_bottom'>
+                            <div className='biznes_form_right_bottom'>
                         <div className='biznes_form_right_bottom_left'>
                             <img src={left} />
                             <p>Geri</p>
                         </div>
                         <div className='biznes_form_right_bottom_right'>
-                            <button>Göndər</button>
+                            <button type='submit'>Göndər</button>
                         </div>
                     </div>
+                        </form>
+
+                    </div>
+                 
                 </div>
             </div>
         </div>
