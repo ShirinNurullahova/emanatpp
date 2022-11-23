@@ -25,7 +25,7 @@ const UniMain = () => {
                 <Swiper
                     loop={true}
                     autoplay={{
-                        delay: 1400,
+                        delay: 1500,
                         disableOnInteraction: false,
                     }}
                     slidesPerView={1}
