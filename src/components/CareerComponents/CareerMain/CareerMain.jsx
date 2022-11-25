@@ -36,7 +36,7 @@ const CareerMain = () => {
                         Gələcəyiniz üçün birgə addımlayırıq.
                         İş həyatını arzuladığın kimi yaşamaq üçün elə indi bizə qoşul!
                         </p>
-                        <Link to='/newVacancies'>
+                        <Link to='/all-vacancies'>
                         <div className="career-main-one-btn">
                             <button>Bizə qoşul</button>
                         </div>

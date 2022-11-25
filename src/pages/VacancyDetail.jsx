@@ -34,7 +34,7 @@ function VacancyDetail() {
           <Telebler filteredNews={filteredNews} />
 
           <VacancyDetailButton
-            link="/contact"
+            link="/hr"
             text="Müraciət et" />
         </div>
 
