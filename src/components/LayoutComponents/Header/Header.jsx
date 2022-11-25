@@ -43,16 +43,18 @@ const Header = () => {
           </Link>
         </div>
 
-        <div className="header-container-search">
-          <label>
-            <input type="text" readOnly onMouseDown={toggle}/>
+        {/* <div className="header-container-search"> */}
+          {/* <label> */}
+            {/* <input type="text" readOnly /> */}
 
-            <img  src={SearchIcon} alt="emanat-axtaris" loading="lazy" />
-          </label>
-        </div>
+          {/* </label> */}
+        {/* </div> */}
 
         <nav className='header-container-navbar'>
           <ul>
+            <li>          
+                <img src={SearchIcon} alt="emanat-axtaris" loading="lazy" onMouseDown={toggle} />
+            </li>
             <li>
               <Link to='/'>Ana səhifə</Link>
             </li>
@@ -65,20 +67,22 @@ const Header = () => {
                 <Link to='/biznesform'>  <p>Biznes</p></Link>
                 <Link to='/terminallocation'> <p>Terminal quraşdırılması</p>
                 </Link>
-                <Link to={'/about'}><p>Haqqımızda</p></Link>
+               
               </div>
 
             </li>
 
             <li><Link to='/career'>Karyera</Link></li>
-            <li><Link to={'/contact'}>Əlaqə</Link></li>
+            <li><Link to={'/about'}>Haqqımızda</Link></li>
+            <li><Link to={'/terminallocation'}>Terminal xəritəsi</Link></li>
+
             <li><Link>AZ</Link></li>
 
           </ul>
         </nav>
       </div>
-        <Modal menuOpen={menuOpen} setMenuOpen={setMenuOpen}  placeholder="Axtarış" data={BookData}/>
-      
+      <Modal menuOpen={menuOpen} setMenuOpen={setMenuOpen} placeholder="Axtarış" data={BookData} />
+
     </header>
   )
 }

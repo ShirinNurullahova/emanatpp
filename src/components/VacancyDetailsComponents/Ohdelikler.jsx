@@ -2,19 +2,21 @@ import React from 'react'
 import "./VacancyDetails.scss";
 
 
-function Ohdelikler() {
+function Ohdelikler(props) {
+
   return (
     <div className='Duties'>
         <div className='duties-heading'>
-            <h1>Öhdəliklər</h1>
+            <h1>İş şəraiti</h1>
         </div>
         <div className='duties-list'>
             <ul>
-                <li>•  Roin efficitur varius mattis. Quisque ultrices, diam nec maximus finibus.</li>
-                <li>•  Roin efficitur varius mattis. Quisque ultrices, diam nec maximus finibus.</li>
-                <li>•  Maximus finibus.Roin efficitur varius mattis</li>
-                <li>•  Roin efficitur varius mattis. Quisque ultrices, diam nec maximus finibus.</li>
-                <li>•  Maximus finibus.Roin efficitur varius mattis</li>
+            {props.filteredNews && props.filteredNews[0].ish.map((e) => {
+            return(
+              <li>• {e}</li>
+            )
+          })}
+                
             </ul>
         </div>
 

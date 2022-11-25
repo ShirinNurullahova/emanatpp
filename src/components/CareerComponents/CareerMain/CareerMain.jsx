@@ -1,6 +1,6 @@
 import React, { Fragment, useRef, useEffect } from 'react'
 import { Link } from 'react-router-dom';
-import humans from '../../../assets/img/adamlar.png';
+import humans from '../../../assets/img/shirin/career.png';
 import '../../CareerComponents/Career.scss'
 import { gsap } from 'gsap';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -33,7 +33,7 @@ const CareerMain = () => {
                             PLATFORMASINA XOŞ GƏLMİSİNİZ!
                         </h1>
                         <p className="career-main-one-p">
-                        Uğurlu karyeranı buradan başla!
+                        İş həyatını arzuladığın kimi yaşamaq üçün elə indi bizə qoşulun!
                         </p>
                         <Link to='/newVacancies'>
                         <div className="career-main-one-btn">

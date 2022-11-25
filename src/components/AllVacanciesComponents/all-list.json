@@ -3,86 +3,254 @@
         "id" :"1",
         "location": "Kürdəmir / Mərkəz Fillialı",
         "date": "27.10.2022",
-        "desc": "Kürdəmir şəhərində mühafizəçi"
+        "desc": "Kürdəmir şəhərində mühafizəçi",
+        "telebler": [
+            "Yaş həddi: 25-35 yaş",
+            "Boy 180 sm-dən yuxarı (kişi namizədlər)",
+            "Sağlam və idman cüssəli olması",
+            "Operativlik, məsuliyyətlilik, diqqət, cəldlik",
+            "Ali təhsilli olması üstünlükdür",
+            "İş təcrübəsinin olması üstünlükdür"
+        ],
+        "vezife" :"Ərazilərdə  inkassasiya prosesinin keçirilməsinə dəstək vermək",
+        "ish": [
+            "Ofis xarici;",
+            "İş rejimi həftənin 6 günü (Şənbə günü qısa iş günüdür);",
+            "Təşəbbüskar təkliflərin dəyərləndirilməsi;",
+            "Əmək haqqının 15 gündən bir ödənilməsi;",
+            "Tibbi sığorta təminatının verilməsi;",
+            "Nahar yeməyinin təmin olunması;",
+            "Birlikdə istirahət” tədbirlərinin keçirilməsi;"
+        ]
     },
+     
     {
         "id" :"2",
         "location": "Kürdəmir / Mərkəz Fillialı",
         "date": "27.02.2023",
-        "desc": "Kürdəmir şəhərində İnkassator"
+        "desc": "Kürdəmir şəhərində İnkassator",
+        "telebler": [
+            "Ali təhsilli",
+            "İnkassasiya sahəsində müvafiq təcrübə arzuolunandır (xüsusilə bank inkassasiyası, xəzinə, kassa);",
+            "Komandada işləmək bacarığı;",
+            "Sürücülük vəsiqəsi"
+           
+        ],
+        "vezife" :"Terminalların inkassasiyası zamanı nağd vəsaitin, qiymətlilərin daşınmasını və təhlükəsiz çatdırılmasını təmin etmək",
+        "ish": [
+            "Təyin olunmuş ərazi üzrə;",
+            "İş rejimi həftənin 6 günü ;",
+            "Əmək haqqının 15 gündən bir ödənilməsi;",
+            "Tibbi sığorta təminatının verilməsi;",
+            "Nahar təminatının qarşılanması."
+          
+        ]
+
     }, {
         "id" :"3",
         "location": "Kürdəmir / Mərkəz Fillialı",
         "date": "27.11.2022",
-        "desc": "Kürdəmir şəhərində Sürücü"
+        "desc": "Kürdəmir şəhərində Sürücü",
+        "telebler": [
+            "Yaş həddi: 25-35 yaş",
+            "3-5 il iş təcrübəsi",
+            "Avtomobil quruluşu üzrə yaxşı biliklər",
+            "Şəhər ərazini yaxşı tanımalı  ",
+            "Yol hərəkəti qaydalarını yaxşı bilməli",
+            "Sürücülük vəsiqəsi (minimum “B” kateqoriya)"
+        ],
+        "vezife" :"Terminalların inkassasiyası zamanı nağd vəsaitin, qiymətlilərin daşınmasını və təhlükəsiz çatdırılmasını təmin etmək",
+        "ish": [
+            "Təyin olunmuş ərazi üzrə;",
+            "İş rejimi həftənin 6 günü (10:00-17:00);",
+            "Əmək haqqının 15 gündən bir ödənilməsi;",
+            "Tibbi sığorta təminatının verilməsi",
+            "Nahar təminatının qarşılanması."
+        ]
+
     }
     , {
         "id" :"4",
         "location": "Şəki / Mərkəz Fillialı",
         "date": "27.10.2022",
-        "desc": "Şəki şəhərində İnkassator"
+        "desc": "Şəki şəhərində İnkassator",
+        "telebler": [
+            "Ali təhsilli",
+            "İnkassasiya sahəsində müvafiq təcrübə arzuolunandır (xüsusilə bank inkassasiyası, xəzinə, kassa);",
+            "Komandada işləmək bacarığı;",
+            "Sürücülük vəsiqəsi"
+           
+        ],
+        "vezife" :"Terminalların inkassasiyası zamanı nağd vəsaitin, qiymətlilərin daşınmasını və təhlükəsiz çatdırılmasını təmin etmək",
+        "ish": [
+            "Təyin olunmuş ərazi üzrə;",
+            "İş rejimi həftənin 6 günü ;",
+            "Əmək haqqının 15 gündən bir ödənilməsi;",
+            "Əmək haqqının 15 gündən bir ödənilməsi;",
+            "Tibbi sığorta təminatının verilməsi;",
+            "Nahar təminatının qarşılanması."
+        ]
+
     }
     , {
         "id" :"5",
         "location": "Şəki / Mərkəz Fillialı",
         "date": "27.02.2023",
-        "desc": "Şəki şəhərində sürücü"
+        "desc": "Şəki şəhərində sürücü",
+        "telebler": [
+            "Yaş həddi: 25-35 yaş",
+            "Boy 180 sm-dən yuxarı (kişi namizədlər)",
+            "Sağlam və idman cüssəli olması",
+            "Operativlik, məsuliyyətlilik, diqqət, cəldlik",
+            "Ali təhsilli olması üstünlükdür",
+            "İş təcrübəsinin olması üstünlükdür"
+        ],
+        "vezife" :"Ərazilərdə  inkassasiya prosesinin keçirilməsinə dəstək vermək",
+        "ish": [
+            "Ofis xarici;",
+            "İş rejimi həftənin 6 günü (Şənbə günü qısa iş günüdür);",
+            "Təşəbbüskar təkliflərin dəyərləndirilməsi;",
+            "Əmək haqqının 15 gündən bir ödənilməsi;",
+            "Tibbi sığorta təminatının verilməsi;",
+            "Nahar yeməyinin təmin olunması;",
+            "Birlikdə istirahət” tədbirlərinin keçirilməsi;"
+        ]
+
     }
     , {
         "id" :"6",
-        "location": "Şəki / Mərkəz Fillialı",
+        "location": "Bakı / Mərkəz Fillialı",
         "date": "27.10.2022",
-        "desc": "Müştərilərə Xidmət şöbəsinin mütəxəssisi"
+        "desc": "Mühafizəçi",
+        "telebler": [
+            "Yaş həddi: 25-35 yaş",
+            "Boy 180 sm-dən yuxarı (kişi namizədlər)",
+            "Minimum 2 il iş təcrübəsi",
+            "Sağlam və idman cüssəli olması",
+            "Operativlik, məsuliyyətlilik, diqqət, cəldlik",
+            "Ali təhsilli olması üstünlükdür"
+        
+        ],
+        "vezife" :"Ərazilərdə  inkassasiya prosesinin keçirilməsinə dəstək vermək.",
+        "ish": [
+            "Ofis xarici;",
+            "İş rejimi həftənin 6 günü (Şənbə günü qısa iş günüdür);",
+            "Təşəbbüskar təkliflərin dəyərləndirilməsi;",
+            "Əmək haqqının 15 gündən bir ödənilməsi;",
+            "Tibbi sığorta təminatının verilməsi;",
+            "Nahar yeməyinin təmin olunması;",
+            "Birlikdə istirahət” tədbirlərinin keçirilməsi;"
+        ]
+
     }
     , {
         "id" :"7",
         "location": "Bakı / Mərkəz Fillialı",
         "date": "27.10.2022",
-        "desc": "Keyfiyyətin idarəedilməsi mütəxəssisi"
+        "desc": "Data Analitik",
+        "telebler": [
+            "Ali təhsil;",
+            "Ən azı 2 il iş təcrübəsi;",
+            "PL/SQL və SQL proqramlaşdırma dilləri barədə güclü məlumat;",
+            "SQL-də analitik funksiyalarla işləmə bacarığı;",
+            "Güclü analitik, təşkilatı və ünsiyyət bacarıqları;",
+            "OLAP və OLTP sistemlərinin prinsiplərini anlamaq;",
+            "Performans qiymətləndirmə və SQL optimallaşdırma təcrübəsi;",
+            "Məlumat anbarlarının tətbiqi təcrübəsi;",
+            "Oracle BI,Tableau  ya digər vizualizasiya proqramları ilə yaxşı səviyyədə işləməyi bacarmalı;",
+            "Dil tələbləri: Azərbaycan dili, Rus və İngilis dili bilməsi arzuolunandır;",
+            "Komandada işləmək bacarığı və stressə davamlılıq;",
+            "Məsuliyyət, dəqiqlik, opertativlik və problemi həll etmə bacarığı;"
+
+        ],
+        "vezife" :"Ərazilərdə  inkassasiya prosesinin keçirilməsinə dəstək vermək",
+        "ish": [
+            "Ofis xarici;",
+            "İş rejimi həftənin 5 günü (09:00 – 18:00);",
+            "Təşəbbüskar təkliflərin dəyərləndirilməsi;",
+            "Əmək haqqının 15 gündən bir ödənilməsi;",
+            "Tibbi sığorta təminatının verilməsi;",
+            "Nahar yeməyinin təmin olunması;",
+            "Birlikdə istirahət” tədbirlərinin keçirilməsi;"
+        ]
+
     }
     , {
         "id" :"8",
         "location": "Bakı / Mərkəz Fillialı",
         "date": "04.10.2022",
-        "desc": "Frontend proqramçı"
+        "desc": "Frontend proqramçı",
+        "telebler": [
+            "Yaş həddi: 25-35 yaş",
+            "Boy 180 sm-dən yuxarı (kişi namizədlər)",
+            "Sağlam və idman cüssəli olması",
+            "Operativlik, məsuliyyətlilik, diqqət, cəldlik",
+            "Ali təhsilli olması üstünlükdür",
+            "İş təcrübəsinin olması üstünlükdür"
+        ],
+        "vezife" :"Ərazilərdə  inkassasiya prosesinin keçirilməsinə dəstək vermək",
+        "ish": [
+            "Ofis xarici;",
+            "İş rejimi həftənin 6 günü (Şənbə günü qısa iş günüdür);",
+            "Təşəbbüskar təkliflərin dəyərləndirilməsi;",
+            "Əmək haqqının 15 gündən bir ödənilməsi;",
+            "Tibbi sığorta təminatının verilməsi;",
+            "Nahar yeməyinin təmin olunması;",
+            "Birlikdə istirahət” tədbirlərinin keçirilməsi;"
+        ]
+
     }
     , {
         "id" :"9",
         "location": "Bakı / Mərkəz Fillialı",
         "date": "04.10.2022",
-        "desc": "Software architect"
+        "desc": "Software architect",
+        "telebler": [
+            "Yaş həddi: 25-35 yaş",
+            "Boy 180 sm-dən yuxarı (kişi namizədlər)",
+            "Sağlam və idman cüssəli olması",
+            "Operativlik, məsuliyyətlilik, diqqət, cəldlik",
+            "Ali təhsilli olması üstünlükdür",
+            "İş təcrübəsinin olması üstünlükdür"
+        ],
+        "vezife" :"Ərazilərdə  inkassasiya prosesinin keçirilməsinə dəstək vermək",
+        "ish": [
+            "Ofis xarici;",
+            "İş rejimi həftənin 6 günü (Şənbə günü qısa iş günüdür);",
+            "Təşəbbüskar təkliflərin dəyərləndirilməsi;",
+            "Əmək haqqının 15 gündən bir ödənilməsi;",
+            "Tibbi sığorta təminatının verilməsi;",
+            "Nahar yeməyinin təmin olunması;",
+            "Birlikdə istirahət” tədbirlərinin keçirilməsi;"
+        ]
+
     }
     , {
         "id" :"10",
-        "location": "Bakı / Mərkəz Fillialı",
+        "location": "Sumqayıt / Mərkəz Fillialı",
         "date": "04.10.2022",
-        "desc": "Kiçik backend proqramçı "
-    }
-    , {
-        "id" :"11",
-        "location": "Bakı / Mərkəz Fillialı",
-        "date": "04.10.2022",
-        "desc": " Aparıcı backend proqram"
-      
-    }
-    , {
-        "id" :"12",
-        "location": "Bakı / Mərkəz Fillialı",
-        "date": "04.10.2022",
-        "desc": "  IT Biznes Analitik"
-      
-    }
-    , {
-        "id" :"13",
-        "location": "Bakı / Mərkəz Fillialı",
-        "date": "04.10.2022",
-        "desc": " Software architect"
-       
-    }
-    , {
-        "id" :"14",
-        "location": "Bakı / Mərkəz Fillialı",
-        "date": "20.09.2022",
-        "desc": "Mühafizəçi"
+        "desc": "Texnik (Sumqayıt) ",
+        "telebler": [
+            "Minimum 1-2 il iş təcrübəsi",
+            "Windows 7, Linux əməliyyat sistemi və bu kimi əməliyyat sistemlərin yükləmə və idarəetmə bacarıqları",
+            "Kompyuter avadanlıqların (Hardware) yığılması, quraşdırılması, diaqnostikası və avadanlıqlarda əmələ gələn problemlərin həlli",
+            "Word, Excel, Outlook",
+            "Problem həll etmək bacarığına malik",
+            "Nəticə almağa meyilli",
+            "Daim öyrənməyə meyilli",
+            "Səbrli, stressə dözümlü"
+            
+        ],
+        "vezife" :"Ödəniş terminallarının planlı şəkildə texniki xidmətinin təmin olunması",
+        "ish": [
+            "Ofis xarici;",
+            "İş rejimi həftənin 6 günü (Şənbə günü qısa iş günüdür);",
+            "Təşəbbüskar təkliflərin dəyərləndirilməsi;",
+            "Əmək haqqının 15 gündən bir ödənilməsi;",
+            "Tibbi sığorta təminatının verilməsi;",
+            "Nahar yeməyinin təmin olunması;",
+            "Birlikdə istirahət” tədbirlərinin keçirilməsi;"
+        ]
+
     }
 ]

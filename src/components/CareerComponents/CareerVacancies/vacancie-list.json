@@ -1,19 +1,79 @@
 [
     {
-        "id":"1",
+        "id" :"1",
         "location": "Kürdəmir / Mərkəz Fillialı",
         "date": "27.10.2022",
-        "desc": "Kürdəmir şəhərində mühafizəçi"
+        "desc": "Kürdəmir şəhərində mühafizəçi",
+        "telebler": [
+            "Yaş həddi: 25-35 yaş",
+            "Boy 180 sm-dən yuxarı (kişi namizədlər)",
+            "Sağlam və idman cüssəli olması",
+            "Operativlik, məsuliyyətlilik, diqqət, cəldlik",
+            "Ali təhsilli olması üstünlükdür",
+            "İş təcrübəsinin olması üstünlükdür"
+        ],
+        "vezife" :"Ərazilərdə  inkassasiya prosesinin keçirilməsinə dəstək vermək",
+        "ish": [
+            "Ofis xarici;",
+            "İş rejimi həftənin 6 günü (Şənbə günü qısa iş günüdür);",
+            "Təşəbbüskar təkliflərin dəyərləndirilməsi;",
+            "Əmək haqqının 15 gündən bir ödənilməsi;",
+            "Tibbi sığorta təminatının verilməsi;",
+            "Nahar yeməyinin təmin olunması;",
+            "Birlikdə istirahət” tədbirlərinin keçirilməsi;"
+        ]
     },
+     
     {
-        "id":"2",
-        "location": "Kürdəmir / Mərkəz Fillialı",
-        "date": "27.02.2023",
-        "desc": "Kürdəmir şəhərində İnkassator"
+        "id" :"9",
+        "location": "Bakı / Mərkəz Fillialı",
+        "date": "04.10.2022",
+        "desc": "Software architect",
+        "telebler": [
+            "Yaş həddi: 25-35 yaş",
+            "Boy 180 sm-dən yuxarı (kişi namizədlər)",
+            "Sağlam və idman cüssəli olması",
+            "Operativlik, məsuliyyətlilik, diqqət, cəldlik",
+            "Ali təhsilli olması üstünlükdür",
+            "İş təcrübəsinin olması üstünlükdür"
+        ],
+        "vezife" :"Ərazilərdə  inkassasiya prosesinin keçirilməsinə dəstək vermək",
+        "ish": [
+            "Ofis xarici;",
+            "İş rejimi həftənin 6 günü (Şənbə günü qısa iş günüdür);",
+            "Təşəbbüskar təkliflərin dəyərləndirilməsi;",
+            "Əmək haqqının 15 gündən bir ödənilməsi;",
+            "Tibbi sığorta təminatının verilməsi;",
+            "Nahar yeməyinin təmin olunması;",
+            "Birlikdə istirahət” tədbirlərinin keçirilməsi;"
+        ]
+
     }, {
-        "id":"3",
-        "location": "Kürdəmir / Mərkəz Fillialı",
-        "date": "27.11.2022",
-        "desc": "Kürdəmir şəhərində Sürücü"
+        "id" :"10",
+        "location": "Sumqayıt / Mərkəz Fillialı",
+        "date": "04.10.2022",
+        "desc": "Texnik (Sumqayıt) ",
+        "telebler": [
+            "Minimum 1-2 il iş təcrübəsi",
+            "Windows 7, Linux əməliyyat sistemi və bu kimi əməliyyat sistemlərin yükləmə və idarəetmə bacarıqları",
+            "Kompyuter avadanlıqların (Hardware) yığılması, quraşdırılması, diaqnostikası və avadanlıqlarda əmələ gələn problemlərin həlli",
+            "Word, Excel, Outlook",
+            "Problem həll etmək bacarığına malik",
+            "Nəticə almağa meyilli",
+            "Daim öyrənməyə meyilli",
+            "Səbrli, stressə dözümlü"
+            
+        ],
+        "vezife" :"Ödəniş terminallarının planlı şəkildə texniki xidmətinin təmin olunması",
+        "ish": [
+            "Ofis xarici;",
+            "İş rejimi həftənin 6 günü (Şənbə günü qısa iş günüdür);",
+            "Təşəbbüskar təkliflərin dəyərləndirilməsi;",
+            "Əmək haqqının 15 gündən bir ödənilməsi;",
+            "Tibbi sığorta təminatının verilməsi;",
+            "Nahar yeməyinin təmin olunması;",
+            "Birlikdə istirahət” tədbirlərinin keçirilməsi;"
+        ]
+
     }
 ]

@@ -2,7 +2,8 @@ import React from 'react'
 import "./VacancyDetails.scss";
 
 
-function Telebler() {
+function Telebler(props) {
+  console.log(props.filteredNews);
   return (
     <div className='Duties'>
     <div className='duties-heading'>
@@ -10,11 +11,11 @@ function Telebler() {
     </div>
     <div className='duties-list'>
         <ul >
-            <li>•  Roin efficitur varius mattis. Quisque ultrices, diam nec maximus</li>
-            <li>•  Roin efficitur varius mattis. Quisque ultrices, diam nec maximus finibus.</li>
-            <li>•  Maximus finibus.Roin efficitur varius mattis</li>
-            <li>•  Roin efficitur varius mattis. Quisque ultrices, diam nec maximus finibus.</li>
-            <li>•  Maximus finibus.Roin efficitur varius mattis</li>
+          {props.filteredNews && props.filteredNews[0].telebler.map((e) => {
+            return(
+              <li>• {e}</li>
+            )
+          })}
         </ul>
     </div>
 

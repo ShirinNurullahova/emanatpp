@@ -1,37 +1,146 @@
 [
     {
-        "id":"1",
+        "id" :"1",
         "location": "Kürdəmir / Mərkəz Fillialı",
         "date": "27.10.2022",
-        "desc": "Kürdəmir şəhərində mühafizəçi"
+        "desc": "Kürdəmir şəhərində mühafizəçi",
+        "telebler": [
+            "Yaş həddi: 25-35 yaş",
+            "Boy 180 sm-dən yuxarı (kişi namizədlər)",
+            "Sağlam və idman cüssəli olması",
+            "Operativlik, məsuliyyətlilik, diqqət, cəldlik",
+            "Ali təhsilli olması üstünlükdür",
+            "İş təcrübəsinin olması üstünlükdür"
+        ],
+        "vezife" :"Ərazilərdə  inkassasiya prosesinin keçirilməsinə dəstək vermək",
+        "ish": [
+            "Ofis xarici;",
+            "İş rejimi həftənin 6 günü (Şənbə günü qısa iş günüdür);",
+            "Təşəbbüskar təkliflərin dəyərləndirilməsi;",
+            "Əmək haqqının 15 gündən bir ödənilməsi;",
+            "Tibbi sığorta təminatının verilməsi;",
+            "Nahar yeməyinin təmin olunması;",
+            "Birlikdə istirahət” tədbirlərinin keçirilməsi;"
+        ]
     },
+     
     {
-        "id":"2",
+        "id" :"2",
         "location": "Kürdəmir / Mərkəz Fillialı",
         "date": "27.02.2023",
-        "desc": "Kürdəmir şəhərində İnkassator"
+        "desc": "Kürdəmir şəhərində İnkassator",
+        "telebler": [
+            "Ali təhsilli",
+            "İnkassasiya sahəsində müvafiq təcrübə arzuolunandır (xüsusilə bank inkassasiyası, xəzinə, kassa);",
+            "Komandada işləmək bacarığı;",
+            "Sürücülük vəsiqəsi"
+           
+        ],
+        "vezife" :"Terminalların inkassasiyası zamanı nağd vəsaitin, qiymətlilərin daşınmasını və təhlükəsiz çatdırılmasını təmin etmək",
+        "ish": [
+            "Təyin olunmuş ərazi üzrə;",
+            "İş rejimi həftənin 6 günü ;",
+            "Əmək haqqının 15 gündən bir ödənilməsi;",
+            "Tibbi sığorta təminatının verilməsi;",
+            "Nahar təminatının qarşılanması."
+          
+        ]
+
     }, {
-        "id":"3",
+        "id" :"3",
         "location": "Kürdəmir / Mərkəz Fillialı",
         "date": "27.11.2022",
-        "desc": "Kürdəmir şəhərində Sürücü"
+        "desc": "Kürdəmir şəhərində Sürücü",
+        "telebler": [
+            "Yaş həddi: 25-35 yaş",
+            "3-5 il iş təcrübəsi",
+            "Avtomobil quruluşu üzrə yaxşı biliklər",
+            "Şəhər ərazini yaxşı tanımalı  ",
+            "Yol hərəkəti qaydalarını yaxşı bilməli",
+            "Sürücülük vəsiqəsi (minimum “B” kateqoriya)"
+        ],
+        "vezife" :"Terminalların inkassasiyası zamanı nağd vəsaitin, qiymətlilərin daşınmasını və təhlükəsiz çatdırılmasını təmin etmək",
+        "ish": [
+            "Təyin olunmuş ərazi üzrə;",
+            "İş rejimi həftənin 6 günü (10:00-17:00);",
+            "Əmək haqqının 15 gündən bir ödənilməsi;",
+            "Tibbi sığorta təminatının verilməsi",
+            "Nahar təminatının qarşılanması."
+        ]
+
     }
     , {
-        "id":"4",
+        "id" :"4",
         "location": "Şəki / Mərkəz Fillialı",
         "date": "27.10.2022",
-        "desc": "Şəki şəhərində İnkassator"
+        "desc": "Şəki şəhərində İnkassator",
+        "telebler": [
+            "Ali təhsilli",
+            "İnkassasiya sahəsində müvafiq təcrübə arzuolunandır (xüsusilə bank inkassasiyası, xəzinə, kassa);",
+            "Komandada işləmək bacarığı;",
+            "Sürücülük vəsiqəsi"
+           
+        ],
+        "vezife" :"Terminalların inkassasiyası zamanı nağd vəsaitin, qiymətlilərin daşınmasını və təhlükəsiz çatdırılmasını təmin etmək",
+        "ish": [
+            "Təyin olunmuş ərazi üzrə;",
+            "İş rejimi həftənin 6 günü ;",
+            "Əmək haqqının 15 gündən bir ödənilməsi;",
+            "Əmək haqqının 15 gündən bir ödənilməsi;",
+            "Tibbi sığorta təminatının verilməsi;",
+            "Nahar təminatının qarşılanması."
+        ]
+
     }
     , {
-        "id":"5",
+        "id" :"5",
         "location": "Şəki / Mərkəz Fillialı",
         "date": "27.02.2023",
-        "desc": "Şəki şəhərində sürücü"
+        "desc": "Şəki şəhərində sürücü",
+        "telebler": [
+            "Yaş həddi: 25-35 yaş",
+            "Boy 180 sm-dən yuxarı (kişi namizədlər)",
+            "Sağlam və idman cüssəli olması",
+            "Operativlik, məsuliyyətlilik, diqqət, cəldlik",
+            "Ali təhsilli olması üstünlükdür",
+            "İş təcrübəsinin olması üstünlükdür"
+        ],
+        "vezife" :"Ərazilərdə  inkassasiya prosesinin keçirilməsinə dəstək vermək",
+        "ish": [
+            "Ofis xarici;",
+            "İş rejimi həftənin 6 günü (Şənbə günü qısa iş günüdür);",
+            "Təşəbbüskar təkliflərin dəyərləndirilməsi;",
+            "Əmək haqqının 15 gündən bir ödənilməsi;",
+            "Tibbi sığorta təminatının verilməsi;",
+            "Nahar yeməyinin təmin olunması;",
+            "Birlikdə istirahət” tədbirlərinin keçirilməsi;"
+        ]
+
     }
     , {
-        "id":"6",
-        "location": "Şəki / Mərkəz Fillialı",
+        "id" :"6",
+        "location": "Bakı / Mərkəz Fillialı",
         "date": "27.10.2022",
-        "desc": "Müştərilərə Xidmət şöbəsi"
+        "desc": "Mühafizəçi",
+        "telebler": [
+            "Yaş həddi: 25-35 yaş",
+            "Boy 180 sm-dən yuxarı (kişi namizədlər)",
+            "Minimum 2 il iş təcrübəsi",
+            "Sağlam və idman cüssəli olması",
+            "Operativlik, məsuliyyətlilik, diqqət, cəldlik",
+            "Ali təhsilli olması üstünlükdür"
+        
+        ],
+        "vezife" :"Ərazilərdə  inkassasiya prosesinin keçirilməsinə dəstək vermək.",
+        "ish": [
+            "Ofis xarici;",
+            "İş rejimi həftənin 6 günü (Şənbə günü qısa iş günüdür);",
+            "Təşəbbüskar təkliflərin dəyərləndirilməsi;",
+            "Əmək haqqının 15 gündən bir ödənilməsi;",
+            "Tibbi sığorta təminatının verilməsi;",
+            "Nahar yeməyinin təmin olunması;",
+            "Birlikdə istirahət” tədbirlərinin keçirilməsi;"
+        ]
+
     }
 ]

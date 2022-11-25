@@ -36,7 +36,7 @@ function DetailsInfo({filteredNews}) {
           <h1>Ümumi məlumat</h1>
         </div>
         <div className="generalInfo-info">
-          <p>Bultrices, diam nec maximus finibus.Roin efficitur varius mattis.</p>
+          <p>{news.vezife}</p>
         </div>
       </div>
     </div>

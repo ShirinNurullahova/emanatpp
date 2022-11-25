@@ -30,8 +30,8 @@ function VacancyDetail() {
       <BreadCrumbVac />
         <div className="vacancy_detail_pad">
       <DetailsInfo filteredNews={filteredNews}/>
-      <Ohdelikler />
-      <Telebler />
+      <Ohdelikler filteredNews={filteredNews}/>
+      <Telebler filteredNews={filteredNews} />
       
       <VacancyDetailButton
       link="/contact"
