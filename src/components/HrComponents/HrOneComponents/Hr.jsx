@@ -101,7 +101,14 @@ const Hr = () => {
                 </div> */}
             </div>
             <div className='hr_main_right'>
+                <div className='hr_main_right_h1'>
+                    <h1>Uğurlu karyeranı <span> buradan</span>  başla!</h1>
+                </div>
+               
                 <form className='hr_main_right_form'>
+                <div className='hr_main_right_form_p'>
+                    <p>İş həyatını arzuladığın kimi yaşamaq üçün elə indi bizə qoşulun!</p>
+                </div>
                     <div className="hr_main_right_form_element">
                         <label>Ad və Soyad *</label>
                         <input type="ad" placeholder='Ad' name="" id="" />

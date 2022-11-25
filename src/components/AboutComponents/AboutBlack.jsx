@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react'
+import { Link } from 'react-router-dom';
 import Map from '../../assets/img/about-map.png'
 import { gsap } from 'gsap';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -40,9 +41,10 @@ const AboutBlack = () => {
   return (
     <section ref={aboutBlack} className='about-black-section'>
       <div ref={blackRef} className="about-black-section-text">
-        <p>Hazırda ödənİş terminalları
-          şəbəkəsİnə <span>3000-dən</span> artıq
-          ödəmə termİnalI daxİldİr. </p>
+        <p>HAZIRDA ÖDƏNİŞ TERMİNALLARI
+          ŞƏBƏKƏSİNƏ <span>3000-DƏN</span> ARTIQ
+          ÖDƏMƏ TERMİNALLARI DAXİLDİR.
+          TERMİNAL ÜNVANLARINA <Link to='/terminal-map'>BURADAN</Link> BAXA BİLƏRSİNİZ  </p>
       </div>
 
       <div ref={mapRef} className="about-black-section-image">

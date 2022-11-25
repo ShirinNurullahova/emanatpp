@@ -46,7 +46,7 @@ const HomePaySection = () => {
                 <p>Ölkədaxİlİ <span>3000-dən</span> artıq ödənİş nöqtəSİ</p>
             </div>
             <div className="home-pay-section-left-description">
-                <p>Modenis MMC 2012-ci ilin sentyabr ayında fəaliyyətə başlamış və 2013-cü ilin martın 5-də eManat brendi ilə Azərbaycan ödəniş bazarına daxil olmuşdur. Şirkət hazırda özünəxidmət nağd ödəniş terminalları şəbəkəsini elektron idarə edir.</p>
+                <p>FinTech texnologiyasının tətbiqinin peşəkar nümunəsi olan eManat ilə ödənişlərin sadə, sürətli və təhlükəsiz üsulundan sən də faydalan!</p>
             </div>
             <div className="home-pay-section-left-button">
                 <button>Daha çox öyrən</button>

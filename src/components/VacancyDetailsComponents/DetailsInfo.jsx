@@ -20,7 +20,7 @@ function DetailsInfo({filteredNews}) {
           <p>Son müraciət tarixi: {news.date}</p>
         </div>
       </div>
-
+{/* 
       <div className="vacancyInfos">
         <div className="vacancyInfo">
           <h1>Vəzifə :</h1>
@@ -29,7 +29,7 @@ function DetailsInfo({filteredNews}) {
         <div className="vacancyInfo">
           <h1>İş rejimi :</h1> <p>Full time</p>
         </div>
-      </div>
+      </div> */}
 
       <div className="generalInfo">
         <div className="generalInfo-header">

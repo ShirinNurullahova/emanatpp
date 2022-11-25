@@ -1,5 +1,5 @@
-import React,{useEffect} from "react";
-import { Link,useParams } from "react-router-dom";
+import React, { useEffect } from "react";
+import { Link, useParams } from "react-router-dom";
 import BreadCrumbVac from "../components/VacancyDetailsComponents/BreadCrumbVac";
 import DetailsInfo from "../components/VacancyDetailsComponents/DetailsInfo";
 import Ohdelikler from "../components/VacancyDetailsComponents/Ohdelikler";
@@ -18,7 +18,7 @@ function VacancyDetail() {
     window.scrollTo(0, 0)
   }, [])
   const params = useParams()
-  const {id }  = params
+  const { id } = params
 
   const filteredNews = data.filter((item) => item.id == id)
   console.log(filteredNews);
@@ -26,22 +26,22 @@ function VacancyDetail() {
 
   return (
     <>
-    <div className="vacancy_detail">
-      <BreadCrumbVac />
+      <div className="vacancy_detail">
+        <BreadCrumbVac />
         <div className="vacancy_detail_pad">
-      <DetailsInfo filteredNews={filteredNews}/>
-      <Ohdelikler filteredNews={filteredNews}/>
-      <Telebler filteredNews={filteredNews} />
-      
-      <VacancyDetailButton
-      link="/contact"
-      text="Müraciət et"/>
-      </div>
-     
+          <DetailsInfo filteredNews={filteredNews} />
+          <Ohdelikler filteredNews={filteredNews} />
+          <Telebler filteredNews={filteredNews} />
 
-    </div>
-     <Tag tags={['#emanat,#fintech,#terminal,#odenisterminali']}/>
-     </>
+          <VacancyDetailButton
+            link="/contact"
+            text="Müraciət et" />
+        </div>
+
+
+      </div>
+      <Tag tags={['#emanat,#fintech,#terminal,#odenisterminali']} />
+    </>
   );
 }
 

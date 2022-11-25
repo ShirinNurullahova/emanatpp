@@ -74,7 +74,7 @@ const Header = () => {
 
             <li><Link to='/career'>Karyera</Link></li>
             <li><Link to={'/about'}>Haqqımızda</Link></li>
-            <li><Link to={'/terminallocation'}>Terminal xəritəsi</Link></li>
+            <li><Link to={'/terminal-map'}>Terminal xəritəsi</Link></li>
 
             <li><Link>AZ</Link></li>
 

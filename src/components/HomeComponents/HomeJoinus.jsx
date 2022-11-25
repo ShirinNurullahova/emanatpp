@@ -46,7 +46,7 @@ const HomeJoinus = () => {
         </div>
 
         <div className="home-joinus-section-left-description">
-          <p>Modenis MMC 2012-ci ilin sentyabr ayında fəaliyyətə başlamış və 2013-cü ilin martın 5-də eManat brendi ilə Azərbaycan ödəniş bazarına daxil olmuşdur.</p>
+          <p>eManat demək eyni zamanda innovativ texnologiya ilə çalışan gənc və enerjili komandaya sahib iş yeri deməkdir.</p>
         </div>
 
         <div className="home-joinus-section-left-button">

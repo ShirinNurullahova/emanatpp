@@ -18,7 +18,7 @@ const FaqAccordion = () => {
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography>
-                    Çox güman ki, bu zaman sayğacınızın monitorunda “X” işarəsi görsənir və ya “alarm” sözü yazılıb, bu isə sayğacınızın blokda olduğunu bildirir. Xahiş edirik, bu məsələ ilə əlaqədar Azəriqaza müraciət edəsiniz.
+                        Çox güman ki, bu zaman sayğacınızın monitorunda “X” işarəsi görsənir və ya “alarm” sözü yazılıb, bu isə sayğacınızın blokda olduğunu bildirir. Xahiş edirik, bu məsələ ilə əlaqədar Azəriqaza müraciət edəsiniz.
                     </Typography>
                 </AccordionDetails>
             </Accordion>
@@ -33,7 +33,7 @@ const FaqAccordion = () => {
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography>
-                    Xahiş edirik, bu məsələ ilə əlaqədar Azəriqaza müraciət edəsiniz.
+                        Xahiş edirik, bu məsələ ilə əlaqədar Azəriqaza müraciət edəsiniz.
                     </Typography>
                 </AccordionDetails>
             </Accordion>
@@ -48,7 +48,7 @@ const FaqAccordion = () => {
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography>
-                    Çox güman ki, borcunuz olduğundan, Azəriqaz kartınızı bloka salıb. Xahiş edirik, bu məsələ ilə əlaqədar Azəriqaza müraciət edəsiniz.
+                        Çox güman ki, borcunuz olduğundan, Azəriqaz kartınızı bloka salıb. Xahiş edirik, bu məsələ ilə əlaqədar Azəriqaza müraciət edəsiniz.
                     </Typography>
                 </AccordionDetails>
             </Accordion>
@@ -63,7 +63,7 @@ const FaqAccordion = () => {
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography>
-                    eManat köşkləri vasitəsilə ödəniş etmək olduqca asandır. Ekranda yazılan və səslə müşayiət edilən təlimatlara diqqətlə əməl etməklə, siz ödənişinizi bir neçə saniyədə tamamlayacaqsınız. Bundan əlavə, siz hər zaman eManat müştəri xidmətlərinə zəng edib, köməklik istəyə bilərsiniz.
+                        eManat köşkləri vasitəsilə ödəniş etmək olduqca asandır. Ekranda yazılan və səslə müşayiət edilən təlimatlara diqqətlə əməl etməklə, siz ödənişinizi bir neçə saniyədə tamamlayacaqsınız. Bundan əlavə, siz hər zaman eManat müştəri xidmətlərinə zəng edib, köməklik istəyə bilərsiniz.
                     </Typography>
                 </AccordionDetails>
             </Accordion>
@@ -78,7 +78,7 @@ const FaqAccordion = () => {
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography>
-                    Əgər qəbzinizdə “Ödənişiniz uğurla başa çatdı. Xidmətimizdən istiadə etdiyiniz üçün təşəkkür edirik” yazılıbsa, bu ödənişinizin uğurla həyata keçdiyini bildirir. Bundan əlavə, siz müştəri xidmətlərimizə zəng etməklə və qəbzdə yazılan məlumatları söyləməklə də, ödənişinizin keçib-keçmədiyini dəqiqləşdirə bilərsiniz.
+                        Əgər qəbzinizdə “Ödənişiniz uğurla başa çatdı. Xidmətimizdən istiadə etdiyiniz üçün təşəkkür edirik” yazılıbsa, bu ödənişinizin uğurla həyata keçdiyini bildirir. Bundan əlavə, siz müştəri xidmətlərimizə zəng etməklə və qəbzdə yazılan məlumatları söyləməklə də, ödənişinizin keçib-keçmədiyini dəqiqləşdirə bilərsiniz.
                     </Typography>
                 </AccordionDetails>
             </Accordion>
@@ -93,7 +93,7 @@ const FaqAccordion = () => {
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography>
-                    Xahiş edirik, müştəri xidmətlərimizə müraciət edəsiniz. Biz sizin ödəniş barəsində provayderdən məlumat alacaq və ödənişinizin ləğv edilib pulunuzun qaytarılmasını təmin edəcəyik.
+                        Xahiş edirik, müştəri xidmətlərimizə müraciət edəsiniz. Biz sizin ödəniş barəsində provayderdən məlumat alacaq və ödənişinizin ləğv edilib pulunuzun qaytarılmasını təmin edəcəyik.
                     </Typography>
                 </AccordionDetails>
             </Accordion>
@@ -108,7 +108,7 @@ const FaqAccordion = () => {
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography>
-                    Ödənişin hesabınıza köçürüldüyünə əmin olana kimi qəbzi saxlamağınız xahiş olunur. Əgər ödəniş hesaba hələ köçürülməyibsə və ya ödənişlə bağlı hər hansı digər problem varsa, qəbz ödənişin baş verməsini təsdiqləyir, ödənişlə bağlı bizə və xidmət təminatçısına ətraflı məlumat verir və problemin aradan qaldırılmasına yardım edir.
+                        Ödənişin hesabınıza köçürüldüyünə əmin olana kimi qəbzi saxlamağınız xahiş olunur. Əgər ödəniş hesaba hələ köçürülməyibsə və ya ödənişlə bağlı hər hansı digər problem varsa, qəbz ödənişin baş verməsini təsdiqləyir, ödənişlə bağlı bizə və xidmət təminatçısına ətraflı məlumat verir və problemin aradan qaldırılmasına yardım edir.
                     </Typography>
                 </AccordionDetails>
             </Accordion>
@@ -123,7 +123,7 @@ const FaqAccordion = () => {
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography>
-                    Bəli, hazırda eManat köşkləri vasitəsilə ancaq nağd ödənişlər etmək mümkündür, lakin gələcəkdə, siz kredit və debit kart vasitəsilə də xidmətlərin haqqını ödəyə biləcəksiniz
+                        Bəli, hazırda eManat köşkləri vasitəsilə ancaq nağd ödənişlər etmək mümkündür, lakin gələcəkdə, siz kredit və debit kart vasitəsilə də xidmətlərin haqqını ödəyə biləcəksiniz
                     </Typography>
                 </AccordionDetails>
             </Accordion>
@@ -138,7 +138,7 @@ const FaqAccordion = () => {
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography>
-                    Xeyr, eManat köşkü qalıq qaytarmır, lakin artıq ödədiyiniz məbləğ provayder tərəfdən sizin balansınıza əlavə olunur və növbəti ödənişlərdə nəzərə alınır.
+                        Xeyr, eManat köşkü qalıq qaytarmır, lakin artıq ödədiyiniz məbləğ provayder tərəfdən sizin balansınıza əlavə olunur və növbəti ödənişlərdə nəzərə alınır.
                     </Typography>
                 </AccordionDetails>
             </Accordion>
@@ -153,12 +153,12 @@ const FaqAccordion = () => {
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography>
-                    Xeyr, eManat köşkündən istifadə tamamilə pulsuzdur. Siz yalnız, müştərisi olduğunuz provayderin xidmət haqqını ödəyirsiniz.
+                        Xeyr, eManat köşkündən istifadə tamamilə pulsuzdur. Siz yalnız, müştərisi olduğunuz provayderin xidmət haqqını ödəyirsiniz.
                     </Typography>
                 </AccordionDetails>
             </Accordion>
 
-            
+
         </section>
     )
 }

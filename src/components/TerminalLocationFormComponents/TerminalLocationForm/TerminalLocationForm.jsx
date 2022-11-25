@@ -26,6 +26,9 @@ const TerminalLocationForm = () => {
           <h1> <span>Terminalların</span> yerləşdirilməsi</h1>
         </div>
         <div className='terminal_location_form_right_form'>
+          <div className='terminal_location_form_right_form_one'>
+            <p>Sizə məxsus obyektə eManat terminalının yerləşdirilməsi üçün zəhmət olmasa, forumu doldurun.</p>
+          </div>
           <form>
             <div className="terminal_location_form_right_form_element">
               <label>Ad, Soyad <img className='star' src={star} /></label>
@@ -64,7 +67,7 @@ const TerminalLocationForm = () => {
             </div>
             <div className="terminal_location_form_right_form_element">
               <label>Qeyd<img className='star' src={star} /></label>
-              
+
               <textarea name="" id="" cols="30" rows="10"></textarea>
             </div>
           </form>

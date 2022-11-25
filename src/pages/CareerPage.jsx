@@ -1,4 +1,5 @@
 import React, { Fragment, useEffect } from 'react'
+import CareerFaq from '../components/CareerComponents/CareerFaq/CareerFaq';
 import CareerVacancies from '../components/CareerComponents/CareerVacancies/CareerVacancies';
 import CareerVideo from '../components/CareerComponents/CareerVideo/CareerVideo';
 const CareerBlue = React.lazy(() => import('../components/CareerComponents/CareerBlue/CareerBlue')); // Lazy-loaded
@@ -28,6 +29,7 @@ const CareerPage = () => {
       <CareerWhite />
       <CareerBlue />
       <CareerImprove/>
+      <CareerFaq/>
       <Tag tags={['#əməliyatlar,#maliyə,#satış,#analitika,#idarəetmə ,#hesabatlılıq']}/>
     </Fragment>
   )

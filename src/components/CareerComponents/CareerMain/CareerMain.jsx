@@ -33,11 +33,12 @@ const CareerMain = () => {
                             PLATFORMASINA XOŞ GƏLMİSİNİZ!
                         </h1>
                         <p className="career-main-one-p">
-                        İş həyatını arzuladığın kimi yaşamaq üçün elə indi bizə qoşulun!
+                        Gələcəyiniz üçün birgə addımlayırıq.
+                        İş həyatını arzuladığın kimi yaşamaq üçün elə indi bizə qoşul!
                         </p>
                         <Link to='/newVacancies'>
                         <div className="career-main-one-btn">
-                            <button>Bizə qoşulun</button>
+                            <button>Bizə qoşul</button>
                         </div>
                         </Link>
                     </div>

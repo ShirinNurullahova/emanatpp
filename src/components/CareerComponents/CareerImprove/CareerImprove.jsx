@@ -6,7 +6,7 @@ const CareerImprove = () => {
         <div className='career-improve'>
             <div className='career-improve_header'>
                 <h2>
-                    <span>Gələcəyimizi</span> birgə inkişaf edirik</h2>
+                    <span>Gələcəyimizi</span> birgə inkişaf etdirək</h2>
             </div>
             <div className='career-improve_text'>
                 <p>Karyera sərgilərinin bir parçasıyıq</p>

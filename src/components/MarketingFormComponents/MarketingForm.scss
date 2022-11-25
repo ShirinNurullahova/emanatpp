@@ -5,7 +5,7 @@
         padding: 100px;
 
         &_h1 {
-            margin-bottom: 60px;
+            margin-bottom: 30px;
 
             h1 {
                 font-family: 'Averta';
@@ -25,6 +25,17 @@
         }
 
         &_form {
+            &_p p{
+                font-family: 'Averta Demo';
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 21px;
+                letter-spacing: 0em;
+                text-align: left;
+                 width: 570px;
+                 margin-bottom: 50px;
+            }
+
             &_element {
                 display: flex;
                 flex-direction: column;
@@ -91,12 +102,12 @@
                     padding-left: 15px;
 
                 }
-                
-            textarea {
-                height: 142px;
-                width: 570px;
-                border: 1px solid #D9D9D9;
-            }
+
+                textarea {
+                    height: 142px;
+                    width: 570px;
+                    border: 1px solid #D9D9D9;
+                }
             }
 
             &_element:last-child input {

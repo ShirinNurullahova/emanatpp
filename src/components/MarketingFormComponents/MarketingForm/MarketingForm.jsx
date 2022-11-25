@@ -22,9 +22,12 @@ const MarketingForm = () => {
       </div>
       <div className='marketing_form_right'>
         <div className='marketing_form_right_h1'>
-          <h1> <span>Marketinq</span> formu</h1>
+          <h1> <span>Marketinq</span></h1>
         </div>
         <div className='marketing_form_right_form'>
+          <div className='marketing_form_right_form_p'>
+            <p>Forumu doldurduqdan sonra marketinq komandamız sorğunuzu qəbul edəcək və ən qısa zamanda sizinlə əlaqə saxlayacağıq.</p>
+          </div>
           <form>
             <div className="marketing_form_right_form_element">
               <label>Ad, Soyad <img className='star' src={star} /></label>

@@ -47,16 +47,21 @@ header {
                 top: 6px;
                 right: 7px;
                 position: absolute;
+                cursor: pointer;
             }
         }
 
         &-navbar {
             margin-left: 76px;
-            
+             li{
+                img{
+                    cursor:pointer
+                 }
+             }
             &-li {
                 position: relative;
                 height: 100%;
-
+             
                 &-dropdown {
                     transition: 0.5s;
                 }
