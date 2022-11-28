@@ -1,39 +1,38 @@
 .breadcrumb {
-    padding: 104px 9.375% 0;
-
+    padding:0 9.375% 0;
+  background-color: 
+  #0A66B5;
+  margin-top: -5%;
     &-container {
         display: flex;
         align-items: center;
-
-        span {
-            margin: 0 10px;
+        justify-content: space-between;
+    &-up{
+        font-family: 'Averta';
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 43px;
+        letter-spacing: 0.01em;
+        text-align: left;
+        color:white !important;
+       
+         span{
+            color:
+            #F99400
+         }
+    }
+     &-img{
+        width: 498px;
+        // height: 498px;
+        display: flex;
+        // align-items: flex-end;
+        img{
+            width: 100%;
         }
+     }   
 
-        p:nth-child(1) {
-            font-family: 'Averta Demo';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 20px;
-            line-height: 24px;
-            display: flex;
-            align-items: center;
-            letter-spacing: 0.01em;
-            color: #B0B0B0;
-            cursor: pointer;
-        }
 
-        p:nth-child(3) {
-            font-family: 'Averta Demo';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 20px;
-            line-height: 24px;
-            display: flex;
-            align-items: center;
-            letter-spacing: 0.01em;
-            color: #070814;
-            cursor: pointer;
-        }
+       
 
 
     }

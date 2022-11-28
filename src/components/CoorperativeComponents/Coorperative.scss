@@ -5,10 +5,10 @@
     padding: 0 9.375% 0 9.375%;
 
     &-one {
-        max-width: 1440px;
+        // max-width: 1440px;
         margin: 0 auto;
-        height: 100vh;
-        max-height: 850px;
+        // height: 100vh;
+        // max-height: 850px;
 
 
         &-h1 {
@@ -17,7 +17,7 @@
             font-weight: 800;
             font-family: 'Averta';
             text-transform: uppercase;
-            width: 930px;
+            // width: 930px;
 
             &-span {
                 color: #F99400;
@@ -63,8 +63,8 @@
     }
 
     &-img {
-        margin-top: 18%;
-        margin-bottom: -40%;
+        // margin-top: 18%;
+        // margin-bottom: -40%;
         // overflow-x: hidden;
     }
 }

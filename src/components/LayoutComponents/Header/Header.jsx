@@ -36,50 +36,47 @@ const Header = () => {
   return (
     <header>
       <div className="header-container">
-        <div className="header-container-logo">
-          <Link to='/'>
-            <img src={Logo} alt="emanat-logo" loading="lazy" />
+        <div>
+          <div className="header-container-logo">
+            <Link to='/'>
+              <img src={Logo} alt="emanat-logo" loading="lazy" />
 
-          </Link>
+            </Link>
+          </div>
         </div>
 
-        {/* <div className="header-container-search"> */}
-          {/* <label> */}
-            {/* <input type="text" readOnly /> */}
-
-          {/* </label> */}
-        {/* </div> */}
-
-        <nav className='header-container-navbar'>
-          <ul>
-            <li>          
+        <div>
+          <nav className='header-container-navbar'>
+            <ul>
+              <li>
                 <img src={SearchIcon} alt="emanat-axtaris" loading="lazy" onMouseDown={toggle} />
-            </li>
-            <li>
-              <Link to='/'>Ana səhifə</Link>
-            </li>
-            {/* <li><Link to={'/coorperative'}>Terminal xəritəsi</Link></li> */}
+              </li>
+              <li>
+                <Link to='/'>Ana səhifə</Link>
+              </li>
+              {/* <li><Link to={'/coorperative'}>Terminal xəritəsi</Link></li> */}
 
-            <li className='header-container-navbar-li' onMouseEnter={dropEnter} onMouseLeave={dropLeave}>
-              <Link to={'/service'}>Əməkdaşlıq <img className='header-container-navbar-li-dropdown' src={dropdown} /></Link>
-              <div className='header-container-navbar-li-div'>
-                <Link to='/marketingform'><p>Marketing</p></Link>
-                <Link to='/biznesform'>  <p>Biznes</p></Link>
-                <Link to='/terminallocation'> <p>Terminal quraşdırılması</p>
-                </Link>
-               
-              </div>
+              <li className='header-container-navbar-li' onMouseEnter={dropEnter} onMouseLeave={dropLeave}>
+                <Link to={'/service'}>Əməkdaşlıq <img className='header-container-navbar-li-dropdown' src={dropdown} /></Link>
+                <div className='header-container-navbar-li-div'>
+                  <Link to='/marketingform'><p>Marketing</p></Link>
+                  <Link to='/biznesform'>  <p>Biznes</p></Link>
+                  <Link to='/terminallocation'> <p>Terminal quraşdırılması</p>
+                  </Link>
 
-            </li>
+                </div>
 
-            <li><Link to='/career'>Karyera</Link></li>
-            <li><Link to={'/about'}>Haqqımızda</Link></li>
-            <li><Link to={'/terminal-map'}>Terminal xəritəsi</Link></li>
+              </li>
 
-            <li><Link>AZ</Link></li>
+              <li><Link to='/career'>Karyera</Link></li>
+              <li><Link to={'/about'}>Haqqımızda</Link></li>
+              <li><Link to={'/terminal-map'}>Terminal xəritəsi</Link></li>
 
-          </ul>
-        </nav>
+              <li><Link>AZ</Link></li>
+
+            </ul>
+          </nav>
+        </div>
       </div>
       <Modal menuOpen={menuOpen} setMenuOpen={setMenuOpen} placeholder="Axtarış" data={BookData} />
 
