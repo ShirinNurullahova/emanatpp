@@ -1,4 +1,5 @@
 import React from 'react'
+import threed from '../../../src/assets/img/shirin/threed.png'
 import { Link } from 'react-router-dom'
 
 
@@ -16,7 +17,9 @@ const HomeSocial = () => {
                     <button><Link to='/coorperative'>Ətraflı</Link></button>
                 </div>
             </div>
-
+             <div className='home_social_right'>
+                <img src={threed}/>
+             </div>
         </div>
     )
 }

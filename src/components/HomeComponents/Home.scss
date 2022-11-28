@@ -637,14 +637,23 @@
 
 
 .home_social {
-
+   display: flex;
+   padding: 140px 9.375% 0 9.375%;
+   justify-content: space-between;
+   
+   &_right{
+     width: 496px;
+     height: 446px;
+     img{
+        width: 100%;
+     }
+   }
     &_main {
         display: flex;
         width: 500px;
+        padding-top: 80px;
         flex-direction: column;
-        margin: 0 auto;
-        text-align: center;
-        padding: 138px 0;
+      
 
         &_h1 {
             h1 {
@@ -653,7 +662,7 @@
                 font-weight: 800;
                 line-height: 72px;
                 letter-spacing: 0em;
-                text-align: center;
+                text-align: left;
 
                 span {
                     color: #F99400;
@@ -669,7 +678,7 @@
             letter-spacing: 0em;
             text-align: center;
             margin: 40px 0;
-
+             text-align: left;
         }
 
         &_btn {
